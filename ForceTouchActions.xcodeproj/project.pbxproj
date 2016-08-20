@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A468A82E1D68CB4800068061 /* FTActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A82C1D68CB4800068061 /* FTActions.h */; };
-		A468A82F1D68CB4800068061 /* FTActions.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A82D1D68CB4800068061 /* FTActions.m */; };
-		A468A8321D68D40E00068061 /* FTShortcutIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8301D68D40E00068061 /* FTShortcutIcon.h */; };
-		A468A8331D68D40E00068061 /* FTShortcutIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8311D68D40E00068061 /* FTShortcutIcon.m */; };
-		A47D8DBF1D67A5AB002E12A6 /* ForceTouchActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A47D8DBE1D67A5AB002E12A6 /* ForceTouchActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A468A83A1D68DEE200068061 /* ForceTouchActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8341D68DEE200068061 /* ForceTouchActions.h */; };
+		A468A83B1D68DEE200068061 /* FTActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8351D68DEE200068061 /* FTActions.h */; };
+		A468A83C1D68DEE200068061 /* FTActions.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8361D68DEE200068061 /* FTActions.m */; };
+		A468A83D1D68DEE200068061 /* FTShortcutIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8371D68DEE200068061 /* FTShortcutIcon.h */; };
+		A468A83E1D68DEE200068061 /* FTShortcutIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8381D68DEE200068061 /* FTShortcutIcon.m */; };
 		A47D8DC61D67A5AB002E12A6 /* ForceTouchActions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D8DBB1D67A5AB002E12A6 /* ForceTouchActions.framework */; };
 		A47D8DCB1D67A5AB002E12A6 /* ForceTouchActionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D8DCA1D67A5AB002E12A6 /* ForceTouchActionsTests.m */; };
 /* End PBXBuildFile section */
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A468A82C1D68CB4800068061 /* FTActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTActions.h; sourceTree = "<group>"; };
-		A468A82D1D68CB4800068061 /* FTActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTActions.m; sourceTree = "<group>"; };
-		A468A8301D68D40E00068061 /* FTShortcutIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTShortcutIcon.h; sourceTree = "<group>"; };
-		A468A8311D68D40E00068061 /* FTShortcutIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcutIcon.m; sourceTree = "<group>"; };
+		A468A8341D68DEE200068061 /* ForceTouchActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceTouchActions.h; sourceTree = "<group>"; };
+		A468A8351D68DEE200068061 /* FTActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTActions.h; sourceTree = "<group>"; };
+		A468A8361D68DEE200068061 /* FTActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTActions.m; sourceTree = "<group>"; };
+		A468A8371D68DEE200068061 /* FTShortcutIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTShortcutIcon.h; sourceTree = "<group>"; };
+		A468A8381D68DEE200068061 /* FTShortcutIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcutIcon.m; sourceTree = "<group>"; };
+		A468A8391D68DEE200068061 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A47D8DBB1D67A5AB002E12A6 /* ForceTouchActions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ForceTouchActions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47D8DBE1D67A5AB002E12A6 /* ForceTouchActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForceTouchActions.h; sourceTree = "<group>"; };
-		A47D8DC01D67A5AB002E12A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A47D8DC51D67A5AB002E12A6 /* ForceTouchActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47D8DCA1D67A5AB002E12A6 /* ForceTouchActionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceTouchActionsTests.m; sourceTree = "<group>"; };
 		A47D8DCC1D67A5AB002E12A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,12 +79,12 @@
 		A47D8DBD1D67A5AB002E12A6 /* ForceTouchActions */ = {
 			isa = PBXGroup;
 			children = (
-				A47D8DC01D67A5AB002E12A6 /* Info.plist */,
-				A47D8DBE1D67A5AB002E12A6 /* ForceTouchActions.h */,
-				A468A8301D68D40E00068061 /* FTShortcutIcon.h */,
-				A468A8311D68D40E00068061 /* FTShortcutIcon.m */,
-				A468A82C1D68CB4800068061 /* FTActions.h */,
-				A468A82D1D68CB4800068061 /* FTActions.m */,
+				A468A8341D68DEE200068061 /* ForceTouchActions.h */,
+				A468A8351D68DEE200068061 /* FTActions.h */,
+				A468A8361D68DEE200068061 /* FTActions.m */,
+				A468A8371D68DEE200068061 /* FTShortcutIcon.h */,
+				A468A8381D68DEE200068061 /* FTShortcutIcon.m */,
+				A468A8391D68DEE200068061 /* Info.plist */,
 			);
 			path = ForceTouchActions;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A468A82E1D68CB4800068061 /* FTActions.h in Headers */,
-				A468A8321D68D40E00068061 /* FTShortcutIcon.h in Headers */,
-				A47D8DBF1D67A5AB002E12A6 /* ForceTouchActions.h in Headers */,
+				A468A83B1D68DEE200068061 /* FTActions.h in Headers */,
+				A468A83A1D68DEE200068061 /* ForceTouchActions.h in Headers */,
+				A468A83D1D68DEE200068061 /* FTShortcutIcon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,8 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A468A82F1D68CB4800068061 /* FTActions.m in Sources */,
-				A468A8331D68D40E00068061 /* FTShortcutIcon.m in Sources */,
+				A468A83E1D68DEE200068061 /* FTShortcutIcon.m in Sources */,
+				A468A83C1D68DEE200068061 /* FTActions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
