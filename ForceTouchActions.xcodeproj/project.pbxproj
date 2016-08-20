@@ -16,6 +16,9 @@
 		A468A83E1D68DEE200068061 /* FTShortcutIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8381D68DEE200068061 /* FTShortcutIcon.m */; };
 		A468A8411D68E0CC00068061 /* FTShortcutIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8401D68E0CC00068061 /* FTShortcutIconTests.m */; };
 		A468A8441D68E39A00068061 /* apple_black.png in Resources */ = {isa = PBXBuildFile; fileRef = A468A8431D68E39A00068061 /* apple_black.png */; };
+		A468A8471D68ED3900068061 /* FTShortcut.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8451D68ED3900068061 /* FTShortcut.h */; };
+		A468A8481D68ED3900068061 /* FTShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8461D68ED3900068061 /* FTShortcut.m */; };
+		A468A84A1D68EF0600068061 /* FTShortcutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8491D68EF0600068061 /* FTShortcutTests.m */; };
 		A47D8DC61D67A5AB002E12A6 /* ForceTouchActions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D8DBB1D67A5AB002E12A6 /* ForceTouchActions.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,9 @@
 		A468A8391D68DEE200068061 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A468A8401D68E0CC00068061 /* FTShortcutIconTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcutIconTests.m; sourceTree = "<group>"; };
 		A468A8431D68E39A00068061 /* apple_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple_black.png; path = Resources/apple_black.png; sourceTree = "<group>"; };
+		A468A8451D68ED3900068061 /* FTShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTShortcut.h; sourceTree = "<group>"; };
+		A468A8461D68ED3900068061 /* FTShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcut.m; sourceTree = "<group>"; };
+		A468A8491D68EF0600068061 /* FTShortcutTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcutTests.m; sourceTree = "<group>"; };
 		A47D8DBB1D67A5AB002E12A6 /* ForceTouchActions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ForceTouchActions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47D8DC51D67A5AB002E12A6 /* ForceTouchActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47D8DCC1D67A5AB002E12A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,12 +107,14 @@
 		A47D8DBD1D67A5AB002E12A6 /* ForceTouchActions */ = {
 			isa = PBXGroup;
 			children = (
+				A468A8391D68DEE200068061 /* Info.plist */,
 				A468A8341D68DEE200068061 /* ForceTouchActions.h */,
 				A468A8351D68DEE200068061 /* FTActions.h */,
 				A468A8361D68DEE200068061 /* FTActions.m */,
 				A468A8371D68DEE200068061 /* FTShortcutIcon.h */,
 				A468A8381D68DEE200068061 /* FTShortcutIcon.m */,
-				A468A8391D68DEE200068061 /* Info.plist */,
+				A468A8451D68ED3900068061 /* FTShortcut.h */,
+				A468A8461D68ED3900068061 /* FTShortcut.m */,
 			);
 			path = ForceTouchActions;
 			sourceTree = "<group>";
@@ -117,6 +125,7 @@
 				A468A8421D68E39100068061 /* Resources */,
 				A47D8DCC1D67A5AB002E12A6 /* Info.plist */,
 				A468A8401D68E0CC00068061 /* FTShortcutIconTests.m */,
+				A468A8491D68EF0600068061 /* FTShortcutTests.m */,
 			);
 			path = ForceTouchActionsTests;
 			sourceTree = "<group>";
@@ -148,6 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A468A8471D68ED3900068061 /* FTShortcut.h in Headers */,
 				A468A83B1D68DEE200068061 /* FTActions.h in Headers */,
 				A468A83A1D68DEE200068061 /* ForceTouchActions.h in Headers */,
 				A468A83D1D68DEE200068061 /* FTShortcutIcon.h in Headers */,
@@ -204,6 +214,7 @@
 		A47D8DB21D67A5AB002E12A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FT;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Abdullah Selek";
 				TargetAttributes = {
@@ -336,6 +347,7 @@
 			files = (
 				A468A83E1D68DEE200068061 /* FTShortcutIcon.m in Sources */,
 				A468A83C1D68DEE200068061 /* FTActions.m in Sources */,
+				A468A8481D68ED3900068061 /* FTShortcut.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A468A8411D68E0CC00068061 /* FTShortcutIconTests.m in Sources */,
+				A468A84A1D68EF0600068061 /* FTShortcutTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
