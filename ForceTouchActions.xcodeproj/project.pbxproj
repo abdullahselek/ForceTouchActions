@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C7507AF59D6788660A135CF /* Pods_ForceTouchActionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6697B8F5147FFB705D93AD5E /* Pods_ForceTouchActionsTests.framework */; };
+		37B72C3045607F180CE72F0F /* Pods_ForceTouchActions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 735F916E36A7F8075BAD2DD0 /* Pods_ForceTouchActions.framework */; };
 		A468A83A1D68DEE200068061 /* ForceTouchActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8341D68DEE200068061 /* ForceTouchActions.h */; };
 		A468A83B1D68DEE200068061 /* FTActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8351D68DEE200068061 /* FTActions.h */; };
 		A468A83C1D68DEE200068061 /* FTActions.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8361D68DEE200068061 /* FTActions.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2125F6CF36C773E7AF24C9F6 /* Pods-ForceTouchActionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchActionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0746E7AAF18099B916FBA8 /* Pods-ForceTouchActions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchActions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForceTouchActions/Pods-ForceTouchActions.debug.xcconfig"; sourceTree = "<group>"; };
+		6697B8F5147FFB705D93AD5E /* Pods_ForceTouchActionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchActionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		735F916E36A7F8075BAD2DD0 /* Pods_ForceTouchActions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchActions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A468A8341D68DEE200068061 /* ForceTouchActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForceTouchActions.h; sourceTree = "<group>"; };
 		A468A8351D68DEE200068061 /* FTActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTActions.h; sourceTree = "<group>"; };
 		A468A8361D68DEE200068061 /* FTActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTActions.m; sourceTree = "<group>"; };
@@ -37,6 +43,8 @@
 		A47D8DC51D67A5AB002E12A6 /* ForceTouchActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47D8DCA1D67A5AB002E12A6 /* ForceTouchActionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceTouchActionsTests.m; sourceTree = "<group>"; };
 		A47D8DCC1D67A5AB002E12A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD49255C709B68BF95E42E7E /* Pods-ForceTouchActions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchActions.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForceTouchActions/Pods-ForceTouchActions.release.xcconfig"; sourceTree = "<group>"; };
+		E0A2846154276455CC69A68A /* Pods-ForceTouchActionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchActionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B72C3045607F180CE72F0F /* Pods_ForceTouchActions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47D8DC61D67A5AB002E12A6 /* ForceTouchActions.framework in Frameworks */,
+				1C7507AF59D6788660A135CF /* Pods_ForceTouchActionsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				A47D8DBD1D67A5AB002E12A6 /* ForceTouchActions */,
 				A47D8DC91D67A5AB002E12A6 /* ForceTouchActionsTests */,
 				A47D8DBC1D67A5AB002E12A6 /* Products */,
+				CCE8E910B9F100E9F5EF823A /* Pods */,
+				EF8056FDAB8979F53772098E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +110,26 @@
 			path = ForceTouchActionsTests;
 			sourceTree = "<group>";
 		};
+		CCE8E910B9F100E9F5EF823A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F0746E7AAF18099B916FBA8 /* Pods-ForceTouchActions.debug.xcconfig */,
+				DD49255C709B68BF95E42E7E /* Pods-ForceTouchActions.release.xcconfig */,
+				2125F6CF36C773E7AF24C9F6 /* Pods-ForceTouchActionsTests.debug.xcconfig */,
+				E0A2846154276455CC69A68A /* Pods-ForceTouchActionsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF8056FDAB8979F53772098E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				735F916E36A7F8075BAD2DD0 /* Pods_ForceTouchActions.framework */,
+				6697B8F5147FFB705D93AD5E /* Pods_ForceTouchActionsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -118,10 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A47D8DCF1D67A5AB002E12A6 /* Build configuration list for PBXNativeTarget "ForceTouchActions" */;
 			buildPhases = (
+				9CF5AA42F688D88F547A32B8 /* [CP] Check Pods Manifest.lock */,
 				A47D8DB61D67A5AB002E12A6 /* Sources */,
 				A47D8DB71D67A5AB002E12A6 /* Frameworks */,
 				A47D8DB81D67A5AB002E12A6 /* Headers */,
 				A47D8DB91D67A5AB002E12A6 /* Resources */,
+				F80E29EDF84046C27F26B4A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A47D8DD21D67A5AB002E12A6 /* Build configuration list for PBXNativeTarget "ForceTouchActionsTests" */;
 			buildPhases = (
+				EFF958ADB587BA154F8E74F7 /* [CP] Check Pods Manifest.lock */,
 				A47D8DC11D67A5AB002E12A6 /* Sources */,
 				A47D8DC21D67A5AB002E12A6 /* Frameworks */,
 				A47D8DC31D67A5AB002E12A6 /* Resources */,
+				834F079691FBE5D1F5957DD5 /* [CP] Embed Pods Frameworks */,
+				37BE52281E87D6F5BA00C8A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +238,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37BE52281E87D6F5BA00C8A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834F079691FBE5D1F5957DD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF5AA42F688D88F547A32B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF958ADB587BA154F8E74F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F80E29EDF84046C27F26B4A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForceTouchActions/Pods-ForceTouchActions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A47D8DB61D67A5AB002E12A6 /* Sources */ = {
@@ -323,6 +438,7 @@
 		};
 		A47D8DD01D67A5AB002E12A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0746E7AAF18099B916FBA8 /* Pods-ForceTouchActions.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -340,6 +456,7 @@
 		};
 		A47D8DD11D67A5AB002E12A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD49255C709B68BF95E42E7E /* Pods-ForceTouchActions.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -357,6 +474,7 @@
 		};
 		A47D8DD31D67A5AB002E12A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2125F6CF36C773E7AF24C9F6 /* Pods-ForceTouchActionsTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ForceTouchActionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -367,6 +485,7 @@
 		};
 		A47D8DD41D67A5AB002E12A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A2846154276455CC69A68A /* Pods-ForceTouchActionsTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ForceTouchActionsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
