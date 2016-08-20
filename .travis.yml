@@ -1,0 +1,21 @@
+language: objective-c
+osx_image: xcode7.3
+xcode_project: ForceTouchActions.xcworkspace
+xcode_scheme: ForceTouchActionsTests
+xcode_sdk: iphonesimulator9.1
+sudo: required
+
+branches:
+ only:
+ - master
+
+before_install:
+- rm -rf /Users/travis/Library/Developer/Xcode/DerivedData/ForceTouchActions-*/
+- rvm use $RVM_RUBY_VERSION
+
+install: bundle
+
+script: 
+- xcodebuild -workspace ForceTouchActions.xcworkspace -scheme ForceTouchActions -destination "platform=iOS Simulator,name=iPhone 6,OS=9.1" clean test | xcpretty
+
+after_success: slather

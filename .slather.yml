@@ -1,0 +1,10 @@
+ci_service: travis_ci
+coverage_service: coveralls
+workspace: ForceTouchActions.xcodeworkspace
+xcodeproj: ForceTouchActions.xcodeproj
+scheme: ForceTouchActions
+source_directory: ForceTouchActions/
+ignore:
+  - ForceTouchActions/ForceTouchActions.h
+  - ForceTouchActions/FTActions.h
+  - ForceTouchActions/FTActions.m
