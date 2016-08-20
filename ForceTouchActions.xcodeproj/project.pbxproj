@@ -14,8 +14,9 @@
 		A468A83C1D68DEE200068061 /* FTActions.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8361D68DEE200068061 /* FTActions.m */; };
 		A468A83D1D68DEE200068061 /* FTShortcutIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8371D68DEE200068061 /* FTShortcutIcon.h */; };
 		A468A83E1D68DEE200068061 /* FTShortcutIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8381D68DEE200068061 /* FTShortcutIcon.m */; };
+		A468A8411D68E0CC00068061 /* FTShortcutIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8401D68E0CC00068061 /* FTShortcutIconTests.m */; };
+		A468A8441D68E39A00068061 /* apple_black.png in Resources */ = {isa = PBXBuildFile; fileRef = A468A8431D68E39A00068061 /* apple_black.png */; };
 		A47D8DC61D67A5AB002E12A6 /* ForceTouchActions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D8DBB1D67A5AB002E12A6 /* ForceTouchActions.framework */; };
-		A47D8DCB1D67A5AB002E12A6 /* ForceTouchActionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D8DCA1D67A5AB002E12A6 /* ForceTouchActionsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,10 @@
 		A468A8371D68DEE200068061 /* FTShortcutIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTShortcutIcon.h; sourceTree = "<group>"; };
 		A468A8381D68DEE200068061 /* FTShortcutIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcutIcon.m; sourceTree = "<group>"; };
 		A468A8391D68DEE200068061 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A468A8401D68E0CC00068061 /* FTShortcutIconTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcutIconTests.m; sourceTree = "<group>"; };
+		A468A8431D68E39A00068061 /* apple_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple_black.png; path = Resources/apple_black.png; sourceTree = "<group>"; };
 		A47D8DBB1D67A5AB002E12A6 /* ForceTouchActions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ForceTouchActions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47D8DC51D67A5AB002E12A6 /* ForceTouchActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47D8DCA1D67A5AB002E12A6 /* ForceTouchActionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForceTouchActionsTests.m; sourceTree = "<group>"; };
 		A47D8DCC1D67A5AB002E12A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD49255C709B68BF95E42E7E /* Pods-ForceTouchActions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchActions.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForceTouchActions/Pods-ForceTouchActions.release.xcconfig"; sourceTree = "<group>"; };
 		E0A2846154276455CC69A68A /* Pods-ForceTouchActionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchActionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A468A8421D68E39100068061 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A468A8431D68E39A00068061 /* apple_black.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		A47D8DB11D67A5AB002E12A6 = {
 			isa = PBXGroup;
 			children = (
@@ -104,8 +114,9 @@
 		A47D8DC91D67A5AB002E12A6 /* ForceTouchActionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A47D8DCA1D67A5AB002E12A6 /* ForceTouchActionsTests.m */,
+				A468A8421D68E39100068061 /* Resources */,
 				A47D8DCC1D67A5AB002E12A6 /* Info.plist */,
+				A468A8401D68E0CC00068061 /* FTShortcutIconTests.m */,
 			);
 			path = ForceTouchActionsTests;
 			sourceTree = "<group>";
@@ -234,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A468A8441D68E39A00068061 /* apple_black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A47D8DCB1D67A5AB002E12A6 /* ForceTouchActionsTests.m in Sources */,
+				A468A8411D68E0CC00068061 /* FTShortcutIconTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
