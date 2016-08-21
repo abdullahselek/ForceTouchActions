@@ -17,15 +17,19 @@ NS_ASSUME_NONNULL_BEGIN
   * Returns application shortcut icon with given type
   *
   * @param iconType Icon Type
+  * @param device Device
  */
-+ (UIApplicationShortcutIcon *)getApplicationShortcutIconWithType:(UIApplicationShortcutIconType)iconType;
++ (UIApplicationShortcutIcon *)getApplicationShortcutIconWithType:(UIApplicationShortcutIconType)iconType
+                                                           device:(UIDevice *)device;
 
 /**
   * Returns application shortcut icon with given image name
   *
   * @param imageName Image name
+  * @param device Device
  */
-+ (UIApplicationShortcutIcon *)getApplicationShortIconWithName:(NSString *)imageName;
++ (UIApplicationShortcutIcon *)getApplicationShortIconWithName:(NSString *)imageName
+                                                        device:(UIDevice *)device;
 
 @end
 

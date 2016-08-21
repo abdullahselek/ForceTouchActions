@@ -27,7 +27,7 @@ static NSString * const FTIconName = @"apple_black";
     describe(@"Shortcut object", ^ {
         context(@"Init with all parameters", ^ {
             it(@"Should not be nil",  ^ {
-                UIApplicationShortcutIcon *shortcutIcon = [FTShortcutIcon getApplicationShortIconWithName:FTIconName];
+                UIApplicationShortcutIcon *shortcutIcon = [FTShortcutIcon getApplicationShortIconWithName:FTIconName device:[UIDevice currentDevice]];
                 expect(shortcutIcon).notTo.beNil();
                 FTShortcut *shortcut = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd
                                                                   title:FTTitle
