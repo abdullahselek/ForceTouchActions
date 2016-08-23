@@ -18,10 +18,29 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, nullable) NSString *subtitle;
 @property (nonatomic, nullable) UIApplicationShortcutIcon *icon;
 
+/**
+  * Initializes a new shortcut item
+  *
+  * @param type shortcut type
+  * @param title shortcut title
+  * @param subtitle shortcut subtitle
+  * @param icon Icon
+  *
+  * @return FTShortcut
+ */
 - (instancetype)initWithType:(UIApplicationShortcutIconType)type
                        title:(NSString *)title
                     subtitle:(nullable NSString *)subtitle
                         icon:(nullable UIApplicationShortcutIcon *)icon;
+
+/**
+  * Returns a shortcut application shortcut with identifier
+  *
+  * @param bundleIdentifier
+  *
+  * @return UIApplicationShortcutItem
+ */
+- (UIApplicationShortcutItem *)toApplicationShortcutWithIdentifier:(NSString *)bundleIdentifier;
 
 @end
 

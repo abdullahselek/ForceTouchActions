@@ -11,13 +11,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FTShortcutIcon : NSObject
+@interface FTShortcutIcon : UIApplicationShortcutIcon
 
 /**
   * Returns application shortcut icon with given type
   *
   * @param iconType Icon Type
   * @param device Device
+  *
+  * @return UIApplicationShortcutIcon
  */
 + (UIApplicationShortcutIcon *)getApplicationShortcutIconWithType:(UIApplicationShortcutIconType)iconType
                                                            device:(UIDevice *)device;
@@ -27,6 +29,8 @@ NS_ASSUME_NONNULL_BEGIN
   *
   * @param imageName Image name
   * @param device Device
+  *
+  * @return UIApplicationShortcutIcon
  */
 + (UIApplicationShortcutIcon *)getApplicationShortIconWithName:(NSString *)imageName
                                                         device:(UIDevice *)device;

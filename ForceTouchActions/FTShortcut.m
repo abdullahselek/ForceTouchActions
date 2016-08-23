@@ -26,4 +26,9 @@
     return self;
 }
 
+- (UIApplicationShortcutItem *)toApplicationShortcutWithIdentifier:(NSString *)bundleIdentifier
+{
+    return [[UIMutableApplicationShortcutItem alloc] initWithType:[NSString stringWithFormat:@"%@.%ld", bundleIdentifier, self.type] localizedTitle:self.title localizedSubtitle:self.subtitle icon:self.icon userInfo:nil];
+}
+
 @end
