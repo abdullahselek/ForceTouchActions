@@ -21,12 +21,15 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FTActions : NSObject
 
 @property (nonatomic) NSString *bundleIdentifier;
+@property (nonatomic) UIApplicationShortcutItem *shortcutItem;
 
-- (void)initWithApplication:(UIApplication *)application
-                   delegate:(id)delegate
-           bundleIdentifier:(NSString *)bundleIdentifier
-                  shortcuts:(NSArray<FTShortcut *> *)shortcuts
-              launchOptions:(NSDictionary *)launchOptions;
+- (instancetype)initWithApplication:(UIApplication *)application
+                           delegate:(id)delegate
+                   bundleIdentifier:(NSString *)bundleIdentifier
+                          shortcuts:(NSArray<FTShortcut *> *)shortcuts
+                      launchOptions:(NSDictionary *)launchOptions;
+
+- (BOOL)handleWithDelegate:(nullable id)delegate shortcutItem:(UIApplicationShortcutItem *)shortcutItem;
 
 @end
 

@@ -10,19 +10,23 @@
 
 @implementation FTActions
 
-- (void)initWithApplication:(UIApplication *)application
-                   delegate:(id)delegate
-           bundleIdentifier:(NSString *)bundleIdentifier
-                  shortcuts:(NSArray<FTShortcut *> *)shortcuts
-              launchOptions:(NSDictionary *)launchOptions
+- (instancetype)initWithApplication:(UIApplication *)application
+                           delegate:(id)delegate
+                   bundleIdentifier:(NSString *)bundleIdentifier
+                          shortcuts:(NSArray<FTShortcut *> *)shortcuts
+                      launchOptions:(NSDictionary *)launchOptions
 {
-    _bundleIdentifier = bundleIdentifier;
-    if ([[[UIDevice currentDevice] systemVersion] compare:FTAvailableVersion options:NSNumericSearch] != NSOrderedAscending)
+    self = [super init];
+    if (self)
     {
-        [self installWithShortcuts:shortcuts application:application];
-        UIApplicationShortcutItem *shortcutItem = (UIApplicationShortcutItem *) launchOptions[UIApplicationLaunchOptionsShortcutItemKey];
-        [self handleWithDelegate:delegate shortcutItem:shortcutItem];
+        _bundleIdentifier = bundleIdentifier;
+        if ([[[UIDevice currentDevice] systemVersion] compare:FTAvailableVersion options:NSNumericSearch] != NSOrderedAscending)
+        {
+            [self installWithShortcuts:shortcuts application:application];
+            _shortcutItem = (UIApplicationShortcutItem *) launchOptions[UIApplicationLaunchOptionsShortcutItemKey];
+        }
     }
+    return self;
 }
 
 - (void)installWithShortcuts:(NSArray<FTShortcut *> *)shortcuts application:(UIApplication *)application
@@ -37,16 +41,11 @@
 
 - (BOOL)handleWithDelegate:(id)delegate shortcutItem:(UIApplicationShortcutItem *)shortcutItem
 {
-    return [self handleWithDelegate:delegate shortcutItem:shortcutItem];
-}
-
-- (BOOL)handleWithDelegate:(id)delegate shortcut:(UIApplicationShortcutItem *)shortcutItem
-{
     if ([delegate respondsToSelector:@selector(prepareForTouchActionWithItem:)]) {
         [delegate prepareForTouchActionWithItem:shortcutItem];
-        return true;
+        return YES;
     }
-    return false;
+    return NO;
 }
 
 @end
