@@ -20,6 +20,7 @@
 		A468A84A1D68EF0600068061 /* FTShortcutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8491D68EF0600068061 /* FTShortcutTests.m */; };
 		A47D8DC61D67A5AB002E12A6 /* ForceTouchActions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D8DBB1D67A5AB002E12A6 /* ForceTouchActions.framework */; };
 		A4933E6E1D8486A700D6D66A /* UIApplicationShortcutItem+FTApplicationShortcutItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4933E6D1D8486A700D6D66A /* UIApplicationShortcutItem+FTApplicationShortcutItemTests.m */; };
+		A4933E701D84896900D6D66A /* FTActionsIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4933E6F1D84896900D6D66A /* FTActionsIconTests.m */; };
 		A4B7089B1D6CCF15008CBD8F /* FTShortcutIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B7089A1D6CCF15008CBD8F /* FTShortcutIconTests.m */; };
 		A4D4B3241D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B3221D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */; };
 		A4D4B3251D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4B3231D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m */; };
@@ -59,6 +60,7 @@
 		A47D8DC51D67A5AB002E12A6 /* ForceTouchActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForceTouchActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47D8DCC1D67A5AB002E12A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4933E6D1D8486A700D6D66A /* UIApplicationShortcutItem+FTApplicationShortcutItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplicationShortcutItem+FTApplicationShortcutItemTests.m"; sourceTree = "<group>"; };
+		A4933E6F1D84896900D6D66A /* FTActionsIconTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTActionsIconTests.m; sourceTree = "<group>"; };
 		A4B7089A1D6CCF15008CBD8F /* FTShortcutIconTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcutIconTests.m; sourceTree = "<group>"; };
 		A4D4B3221D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplicationShortcutItem+FTApplicationShortcutItem.h"; sourceTree = "<group>"; };
 		A4D4B3231D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplicationShortcutItem+FTApplicationShortcutItem.m"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				A47D8DCC1D67A5AB002E12A6 /* Info.plist */,
 				A4B7089A1D6CCF15008CBD8F /* FTShortcutIconTests.m */,
 				A468A8491D68EF0600068061 /* FTShortcutTests.m */,
+				A4933E6F1D84896900D6D66A /* FTActionsIconTests.m */,
 				A4933E6D1D8486A700D6D66A /* UIApplicationShortcutItem+FTApplicationShortcutItemTests.m */,
 			);
 			path = ForceTouchActionsTests;
@@ -388,6 +391,7 @@
 			files = (
 				A4B7089B1D6CCF15008CBD8F /* FTShortcutIconTests.m in Sources */,
 				A468A84A1D68EF0600068061 /* FTShortcutTests.m in Sources */,
+				A4933E701D84896900D6D66A /* FTActionsIconTests.m in Sources */,
 				A4933E6E1D8486A700D6D66A /* UIApplicationShortcutItem+FTApplicationShortcutItemTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

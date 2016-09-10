@@ -4,7 +4,3 @@ workspace: ForceTouchActions.xcodeworkspace
 xcodeproj: ForceTouchActions.xcodeproj
 scheme: ForceTouchActions
 source_directory: ForceTouchActions/
-ignore:
-  - ForceTouchActions/ForceTouchActions.h
-  - ForceTouchActions/FTActions.h
-  - ForceTouchActions/FTActions.m

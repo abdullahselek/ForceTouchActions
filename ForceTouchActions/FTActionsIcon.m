@@ -35,7 +35,7 @@
         case FTActionsIconTypeHome:
             return UIApplicationShortcutIconTypeHome;
         case FTActionsIconTypeMarkLocation:
-            return UIApplicationShortcutIconTypeLocation;
+            return UIApplicationShortcutIconTypeMarkLocation;
         case FTActionsIconTypeFavorite:
             return UIApplicationShortcutIconTypeFavorite;
         case FTActionsIconTypeLove:
