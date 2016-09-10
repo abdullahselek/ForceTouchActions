@@ -6,7 +6,6 @@
 //  Copyright © 2016 Abdullah Selek. All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
 #import <Quick/Quick.h>
 #import <Expecta/Expecta.h>
 #import <OCMock/OCMock.h>

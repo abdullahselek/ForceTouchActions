@@ -12,4 +12,6 @@
 
 @interface UIApplicationShortcutItem (FTApplicationShortcutItem)
 
+- (FTShortcut *)toShortcutWithIconType:(FTActionsIconType)iconType;
+
 @end
