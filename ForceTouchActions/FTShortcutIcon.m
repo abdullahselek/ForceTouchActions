@@ -8,9 +8,6 @@
 
 #import "FTShortcutIcon.h"
 
-static NSString * const FTNotAvailableError = @"ForceTouchActions available iOS 9 or later";
-static NSString * const FTAvailableVersion = @"9.0";
-
 @implementation FTShortcutIcon
 
 + (UIApplicationShortcutIcon *)getApplicationShortcutIconWithType:(UIApplicationShortcutIconType)iconType
@@ -22,7 +19,7 @@ static NSString * const FTAvailableVersion = @"9.0";
     }
     else
     {
-        NSLog(FTNotAvailableError);
+        NSLog(@"%@", FTNotAvailableError);
         return nil;
     }
 }
@@ -36,7 +33,7 @@ static NSString * const FTAvailableVersion = @"9.0";
     }
     else
     {
-        NSLog(FTNotAvailableError);
+        NSLog(@"%@", FTNotAvailableError);
         return nil;
     }
 }
