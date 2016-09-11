@@ -72,6 +72,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)addShortcuts:(NSArray<FTShortcut *> *)shortcuts application:(UIApplication *)application;
 
+/**
+  * Add shortcut to application
+  *
+  * @param shortcut Shortcut
+  * @param application UIApplication
+ */
+- (void)addShortcut:(FTShortcut *)shortcut application:(UIApplication *)application;
+
 @end
 
 NS_ASSUME_NONNULL_END

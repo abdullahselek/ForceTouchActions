@@ -62,5 +62,10 @@
     application.shortcutItems = shortcutItems;
 }
 
+- (void)addShortcut:(FTShortcut *)shortcut application:(UIApplication *)application
+{
+    [self addShortcuts:@[shortcut] application:application];
+}
+
 
 @end
