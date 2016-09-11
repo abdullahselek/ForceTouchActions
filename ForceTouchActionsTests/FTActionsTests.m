@@ -23,13 +23,19 @@
     describe(@"Touch actions", ^{
         __block FTActions *actions;
         __block id mockDelegate;
+        __block id mockApplication;
         beforeEach(^{
             mockDelegate = OCMProtocolMock(@protocol(FTActionsSupport));
+            mockApplication = OCMClassMock([UIApplication class]);
+            OCMStub([mockApplication sharedApplication]).andReturn(mockApplication);
             UIApplicationShortcutIcon *shortcutIcon = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeUpdate];
             expect(shortcutIcon).notTo.beNil();
             NSArray<FTShortcut *> *shortcuts = @[[[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeUpdate title:@"TITLE" subtitle:@"SUBTITLE" icon:shortcutIcon]];
             expect(shortcuts).haveCountOf(1);
             actions = [[FTActions alloc] initWithApplication:[UIApplication sharedApplication] delegate:mockDelegate bundleIdentifier:@"bunleId" shortcuts:shortcuts launchOptions:@{}];
+        });
+        afterEach(^{
+            [(id) mockApplication stopMocking];
         });
         context(@"Init with valid parameters", ^{
             it(@"Should initiate successfully", ^{
@@ -46,6 +52,18 @@
             it(@"Should return false", ^{
                 expect(actions).notTo.beNil();
                 expect([actions handleWithDelegate:nil shortcutItem:actions.shortcutItem]).beFalsy();
+            });
+        });
+        context(@"Add shortcuts", ^{
+            it(@"Application should get these shortcuts", ^{
+                expect(actions).notTo.beNil();
+                UIApplicationShortcutIcon *shortcutIconAdd = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeAdd];
+                expect(shortcutIconAdd).notTo.beNil();
+                UIApplicationShortcutIcon *shortcutIconCompose = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeCompose];
+                expect(shortcutIconCompose).notTo.beNil();
+                FTShortcut *shortcutAdd = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd title:@"ADD" subtitle:@"ADD_SUBTITLE" icon:shortcutIconAdd];
+                FTShortcut *shortcutCompose = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeCompose title:@"COMPOSE" subtitle:@"COMPOSE_SUBTITLE" icon:shortcutIconCompose];
+                [actions addShortcuts:@[shortcutAdd, shortcutCompose] application:[UIApplication sharedApplication]];
             });
         });
     });

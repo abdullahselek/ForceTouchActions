@@ -64,6 +64,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)handleWithDelegate:(nullable id)delegate shortcutItem:(UIApplicationShortcutItem *)shortcutItem;
 
+/**
+  * Add shortcuts to application
+  *
+  * @param shortcuts Array of custom shortcuts
+  * @param application UIApplication
+ */
+- (void)addShortcuts:(NSArray<FTShortcut *> *)shortcuts application:(UIApplication *)application;
+
 @end
 
 NS_ASSUME_NONNULL_END

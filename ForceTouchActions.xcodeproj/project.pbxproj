@@ -22,8 +22,6 @@
 		A4933E6E1D8486A700D6D66A /* UIApplicationShortcutItem+FTApplicationShortcutItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4933E6D1D8486A700D6D66A /* UIApplicationShortcutItem+FTApplicationShortcutItemTests.m */; };
 		A4933E701D84896900D6D66A /* FTActionsIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4933E6F1D84896900D6D66A /* FTActionsIconTests.m */; };
 		A4933E721D84908800D6D66A /* FTActionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4933E711D84908800D6D66A /* FTActionsTests.m */; };
-		A4B2C0BD1D85DA5E00C85006 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B2C0BC1D85DA5E00C85006 /* OCHamcrestIOS.framework */; };
-		A4B2C0BF1D85DA6800C85006 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B2C0BE1D85DA6800C85006 /* OCMockitoIOS.framework */; };
 		A4B7089B1D6CCF15008CBD8F /* FTShortcutIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B7089A1D6CCF15008CBD8F /* FTShortcutIconTests.m */; };
 		A4D4B3241D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B3221D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */; };
 		A4D4B3251D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4B3231D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m */; };
@@ -67,8 +65,6 @@
 		A4933E711D84908800D6D66A /* FTActionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTActionsTests.m; sourceTree = "<group>"; };
 		A4B2C0B71D85D9A300C85006 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMockitoIOS.framework; path = "../../../Downloads/OCMockito-4.0.0/OCMockitoIOS.framework"; sourceTree = "<group>"; };
 		A4B2C0B91D85D9B300C85006 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrestIOS.framework; path = "../../../Downloads/OCHamcrest-6.0.0/OCHamcrestIOS.framework"; sourceTree = "<group>"; };
-		A4B2C0BC1D85DA5E00C85006 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
-		A4B2C0BE1D85DA6800C85006 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
 		A4B7089A1D6CCF15008CBD8F /* FTShortcutIconTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTShortcutIconTests.m; sourceTree = "<group>"; };
 		A4D4B3221D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplicationShortcutItem+FTApplicationShortcutItem.h"; sourceTree = "<group>"; };
 		A4D4B3231D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplicationShortcutItem+FTApplicationShortcutItem.m"; sourceTree = "<group>"; };
@@ -94,8 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B2C0BD1D85DA5E00C85006 /* OCHamcrestIOS.framework in Frameworks */,
-				A4B2C0BF1D85DA6800C85006 /* OCMockitoIOS.framework in Frameworks */,
 				A47D8DC61D67A5AB002E12A6 /* ForceTouchActions.framework in Frameworks */,
 				1C7507AF59D6788660A135CF /* Pods_ForceTouchActionsTests.framework in Frameworks */,
 			);
@@ -115,7 +109,6 @@
 		A47D8DB11D67A5AB002E12A6 = {
 			isa = PBXGroup;
 			children = (
-				A4B2C0BB1D85DA1E00C85006 /* Libraries */,
 				A47D8DBD1D67A5AB002E12A6 /* ForceTouchActions */,
 				A47D8DC91D67A5AB002E12A6 /* ForceTouchActionsTests */,
 				A47D8DBC1D67A5AB002E12A6 /* Products */,
@@ -167,15 +160,6 @@
 				A4933E6D1D8486A700D6D66A /* UIApplicationShortcutItem+FTApplicationShortcutItemTests.m */,
 			);
 			path = ForceTouchActionsTests;
-			sourceTree = "<group>";
-		};
-		A4B2C0BB1D85DA1E00C85006 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				A4B2C0BE1D85DA6800C85006 /* OCMockitoIOS.framework */,
-				A4B2C0BC1D85DA5E00C85006 /* OCHamcrestIOS.framework */,
-			);
-			name = Libraries;
 			sourceTree = "<group>";
 		};
 		CCE8E910B9F100E9F5EF823A /* Pods */ = {
