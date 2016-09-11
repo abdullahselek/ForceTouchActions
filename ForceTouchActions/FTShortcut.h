@@ -11,11 +11,29 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+  * Shortcut
+ */
 @interface FTShortcut : NSObject
 
+/**
+  * Application shortcut icon type
+ */
 @property (nonatomic) UIApplicationShortcutIconType type;
+
+/**
+  * Title for action
+ */
 @property (nonatomic) NSString *title;
+
+/**
+  * Subtitle for action
+ */
 @property (nonatomic, nullable) NSString *subtitle;
+
+/**
+  * Application shortcut icon
+ */
 @property (nonatomic, nullable) UIApplicationShortcutIcon *icon;
 
 /**

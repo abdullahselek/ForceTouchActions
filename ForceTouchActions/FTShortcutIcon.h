@@ -11,6 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+  * Shortcut Icon
+ */
 @interface FTShortcutIcon : UIApplicationShortcutIcon
 
 /**

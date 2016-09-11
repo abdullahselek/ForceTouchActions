@@ -10,8 +10,18 @@
 #import "FTShortcut.h"
 #import "FTActionsIcon.h"
 
+/**
+  * Category class of application shortcut item
+ */
 @interface UIApplicationShortcutItem (FTApplicationShortcutItem)
 
+/**
+  * Returns FTShortcut object from UIApplicationShortcutItem
+  *
+  * @param iconType FTActionsIconType
+  *
+  * @return FTShortcut object
+ */
 - (FTShortcut *)toShortcutWithIconType:(FTActionsIconType)iconType;
 
 @end

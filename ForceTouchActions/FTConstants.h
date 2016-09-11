@@ -12,6 +12,9 @@ extern NSString * const FTNotAvailableError;
 extern NSString * const FTAvailableVersion;
 extern NSInteger const FTActionsIconTypeCustomValue;
 
+/**
+  * Custom constants used inside library
+ */
 @interface FTConstants : NSObject
 
 @end

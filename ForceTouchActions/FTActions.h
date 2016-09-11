@@ -12,23 +12,56 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+  * Delegate for handling action
+ */
 @protocol FTActionsSupport <NSObject>
 
+/**
+  * Handle action with shortcut item
+  *
+  * @param shortcutItem
+ */
 - (void)prepareForTouchActionWithItem:(UIApplicationShortcutItem *)shortcutItem;
 
 @end
 
+/**
+  * Actions handler
+ */
 @interface FTActions : NSObject
 
+/**
+  * Application bundle identifier
+ */
 @property (nonatomic) NSString *bundleIdentifier;
+
+/**
+  * Application shortcut item
+ */
 @property (nonatomic) UIApplicationShortcutItem *shortcutItem;
 
+/**
+  * Initiate actions handler with parameters
+  *
+  * @param application UIApplication
+  * @param delegate Delegate to handle action
+  * @param bundleIdentifier Application bundle id
+  * @param shortcuts FTShortcuts
+  * @param launchOptions Application launchOptions
+ */
 - (instancetype)initWithApplication:(UIApplication *)application
                            delegate:(id)delegate
                    bundleIdentifier:(NSString *)bundleIdentifier
                           shortcuts:(NSArray<FTShortcut *> *)shortcuts
                       launchOptions:(NSDictionary *)launchOptions;
 
+/**
+  * Handle action with delegate
+  *
+  * @param delegate Delegate to handle action
+  * @param shortcutItem UIApplicationShortcutItem
+ */
 - (BOOL)handleWithDelegate:(nullable id)delegate shortcutItem:(UIApplicationShortcutItem *)shortcutItem;
 
 @end

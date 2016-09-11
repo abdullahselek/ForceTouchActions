@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+  *  Actions Icon Types
+ */
 typedef NS_ENUM(NSInteger, FTActionsIconType) {
     FTActionsIconTypeCompose,
     FTActionsIconTypePlay,
@@ -43,6 +46,11 @@ typedef NS_ENUM(NSInteger, FTActionsIconType) {
 
 @interface FTActionsIcon : NSObject
 
+/**
+  * Converts ft actions icon type to UIApplicationShortcutIconType
+  *
+  * @param actionIconType FTActionsIconType
+ */
 + (UIApplicationShortcutIconType)toShortcutIconType:(FTActionsIconType)actionIconType;
 
 @end
