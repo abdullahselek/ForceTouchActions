@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ForceTouchSample/ForceTouchSample.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ForceTouchActions.xcodeproj">
    </FileRef>
    <FileRef
