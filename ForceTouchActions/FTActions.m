@@ -67,5 +67,23 @@
     [self addShortcuts:@[shortcut] application:application];
 }
 
+- (void)removeShortcut:(FTShortcut *)shortcut application:(UIApplication *)application
+{
+    if (application.shortcutItems)
+    {
+        NSUInteger index = [application.shortcutItems indexOfObject:[shortcut toApplicationShortcutWithIdentifier:self.bundleIdentifier]];
+        if (index > -1)
+        {
+            NSMutableArray *shortcutItems = [NSMutableArray arrayWithArray:application.shortcutItems];
+            [shortcutItems removeObjectAtIndex:index];
+            application.shortcutItems = shortcutItems;
+        }
+    }
+}
+
+- (void)clearShortcutItems:(UIApplication *)application
+{
+    application.shortcutItems = nil;
+}
 
 @end

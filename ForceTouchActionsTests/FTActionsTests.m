@@ -100,6 +100,25 @@
                 expect([mockApplication shortcutItems]).haveCountOf(1);
             });
         });
+        context(@"Clear shortcuts", ^{
+            __block FTActions *actions;
+            __block id mockDelegate;
+            __block id mockApplication;
+            beforeEach(^{
+                mockDelegate = OCMProtocolMock(@protocol(FTActionsSupport));
+                mockApplication = OCMClassMock([UIApplication class]);
+                OCMStub([mockApplication sharedApplication]).andReturn(mockApplication);
+                actions = [[FTActions alloc] initWithApplication:[UIApplication sharedApplication] delegate:mockDelegate bundleIdentifier:@"bunleId" shortcuts:@[] launchOptions:@{}];
+            });
+            afterEach(^{
+                [(id) mockApplication stopMocking];
+            });
+            it(@"Application should clear shortcuts", ^{
+                expect(actions).notTo.beNil();
+                [actions clearShortcutItems:mockApplication];
+                expect([mockApplication shortcutItems]).beNil();
+            });
+        });
     });
 }
 

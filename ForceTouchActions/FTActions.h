@@ -80,6 +80,21 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)addShortcut:(FTShortcut *)shortcut application:(UIApplication *)application;
 
+/**
+  * Remove shortcut from application shortcut items
+  *
+  * @param shortcut Shortcut
+  * @param application UIApplication
+ */
+- (void)removeShortcut:(FTShortcut *)shortcut application:(UIApplication *)application;
+
+/**
+  * Clear shortcut items on application
+  *
+  * @param application UIApplication
+ */
+- (void)clearShortcutItems:(UIApplication *)application;
+
 @end
 
 NS_ASSUME_NONNULL_END
