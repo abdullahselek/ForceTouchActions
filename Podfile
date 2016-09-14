@@ -1,4 +1,9 @@
 platform :ios, '9.0'
+use_frameworks!
+
+def product_pods
+	pod 'ForceTouchActions', :path => '.'
+end
 
 def testing_pods
 	pod 'OCMock', '~> 3.3'
@@ -6,14 +11,16 @@ def testing_pods
 	pod 'Quick'
 end
 
-target 'ForceTouchActions' do
-  use_frameworks!
+workspace 'ForceTouchActions.xcworkspace'
+project 'ForceTouchActions.xcodeproj'
+project 'ForceTouchSample/ForceTouchSample.xcodeproj'
 
-  # Pods for ForceTouchActions
+target 'ForceTouchActionsTests' do
+	project 'ForceTouchActions.xcodeproj'
+   		inherit! :search_paths
+   		testing_pods
+end
 
-  target 'ForceTouchActionsTests' do
-    inherit! :search_paths
-    testing_pods
-  end
-
+target 'ForceTouchSample' do
+	product_pods
 end

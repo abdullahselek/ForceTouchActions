@@ -13,9 +13,12 @@
 		A45261301D889FE100FD33B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A452612E1D889FE100FD33B9 /* Main.storyboard */; };
 		A45261321D889FE100FD33B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45261311D889FE100FD33B9 /* Assets.xcassets */; };
 		A45261351D889FE100FD33B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45261331D889FE100FD33B9 /* LaunchScreen.storyboard */; };
+		DC82FFFA25041A4DBFB733B6 /* Pods_ForceTouchSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CFAAE08C1FEA3D9F1C7522 /* Pods_ForceTouchSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38CFAAE08C1FEA3D9F1C7522 /* Pods_ForceTouchSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1720C79FBDDE94ADB60EBE8 /* Pods-ForceTouchSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ForceTouchSample/Pods-ForceTouchSample.debug.xcconfig"; sourceTree = "<group>"; };
 		A45261221D889FE100FD33B9 /* ForceTouchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForceTouchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45261261D889FE100FD33B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A45261281D889FE100FD33B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		A45261311D889FE100FD33B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45261341D889FE100FD33B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A45261361D889FE100FD33B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD28A23FDF880FBE27CA7C5C /* Pods-ForceTouchSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForceTouchSample.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ForceTouchSample/Pods-ForceTouchSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC82FFFA25041A4DBFB733B6 /* Pods_ForceTouchSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24D1B270C1FDE558928A70C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1720C79FBDDE94ADB60EBE8 /* Pods-ForceTouchSample.debug.xcconfig */,
+				CD28A23FDF880FBE27CA7C5C /* Pods-ForceTouchSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74ED5F4749D511823A27B987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38CFAAE08C1FEA3D9F1C7522 /* Pods_ForceTouchSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A45261191D889FE100FD33B9 = {
 			isa = PBXGroup;
 			children = (
 				A45261241D889FE100FD33B9 /* ForceTouchSample */,
 				A45261231D889FE100FD33B9 /* Products */,
+				24D1B270C1FDE558928A70C4 /* Pods */,
+				74ED5F4749D511823A27B987 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A45261391D889FE100FD33B9 /* Build configuration list for PBXNativeTarget "ForceTouchSample" */;
 			buildPhases = (
+				2C8C73ACD4B09C44DDCFCB8C /* [CP] Check Pods Manifest.lock */,
 				A452611E1D889FE100FD33B9 /* Sources */,
 				A452611F1D889FE100FD33B9 /* Frameworks */,
 				A45261201D889FE100FD33B9 /* Resources */,
+				98BE666AB067B8BCB561C431 /* [CP] Embed Pods Frameworks */,
+				6A23E28B678DAB48D5BB120C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C8C73ACD4B09C44DDCFCB8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A23E28B678DAB48D5BB120C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ForceTouchSample/Pods-ForceTouchSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98BE666AB067B8BCB561C431 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ForceTouchSample/Pods-ForceTouchSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A452611E1D889FE100FD33B9 /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		A452613A1D889FE100FD33B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1720C79FBDDE94ADB60EBE8 /* Pods-ForceTouchSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ForceTouchSample/Info.plist;
@@ -282,6 +358,7 @@
 		};
 		A452613B1D889FE100FD33B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD28A23FDF880FBE27CA7C5C /* Pods-ForceTouchSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ForceTouchSample/Info.plist;
@@ -311,6 +388,7 @@
 				A452613B1D889FE100FD33B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

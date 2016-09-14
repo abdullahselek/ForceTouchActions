@@ -1,18 +1,25 @@
 PODS:
   - Expecta (1.0.5)
+  - ForceTouchActions (0.1)
   - OCMock (3.3.1)
   - Quick (0.9.3)
 
 DEPENDENCIES:
   - Expecta (~> 1.0)
+  - ForceTouchActions (from `.`)
   - OCMock (~> 3.3)
   - Quick
 
+EXTERNAL SOURCES:
+  ForceTouchActions:
+    :path: .
+
 SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  ForceTouchActions: f6e8bd3d0ac4cdd38641c23d9e15281f0effa47d
   OCMock: f3f61e6eaa16038c30caa5798c5e49d3307b6f22
   Quick: 13a2a2b19a5d8e3ed4fd0c36ee46597fd77ebf71
 
-PODFILE CHECKSUM: 0691bff5b70c81bb02c5c3c88546fab27e8aef40
+PODFILE CHECKSUM: 6c0c0b47d05fa266787ecd41a442c5af805ce03c
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

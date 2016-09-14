@@ -17,13 +17,14 @@
 		0F6F5BE2C9F1981B8E05BAC401C28811 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = C393F759ABFBCEF8D9937CC0F6051FD1 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F94F5B0ABB3252B9275B7C129EC7A26 /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 824B4D2ED93328C19B902F6B344DA29D /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0FE73810A3AC05AB5FC75830768FD60B /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E085AE1F2A6375A581C0F3B0AF4239 /* ExampleGroup.swift */; };
+		1082FB4A227B911388B15282CB43EB51 /* Pods-ForceTouchSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B22EA2F52C47561086F8FF567C0AEE2C /* Pods-ForceTouchSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C1AEB289C1EB80089349B71F09D04B /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D44EFF52FC8F72B3553D47E353A5FD /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11ED8E2C7B84F6AACE5CB025A65C6E97 /* FTShortcutIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A27A44257FB530795FB782FEBE58303 /* FTShortcutIcon.m */; };
 		12E68D9F5B6EC5840BD702652CE35197 /* OCMInvocationStub.h in Headers */ = {isa = PBXBuildFile; fileRef = C7238A2FD0554CEFEC6709E77BCC2CB6 /* OCMInvocationStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1312A7D381C51428CF481E33E3D37901 /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A164B7F38E5222117286031C6F3123 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		131532787AD40BE1F35DF288D2E6FFD7 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5CB89456DFB9F2AC392DEB51560D79 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15BF4F9FACDBDE87D98CBB1A8D8145B6 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D2BF9297DDF9E6077C635C2645A8E /* HooksPhase.swift */; };
 		17572374B2AE183C6347C41E8DF8E579 /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D158D55F79F0DDE05C995EB3788E3E3 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		194CBAC3CE0075ADA98485AE59A855A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		1A1AB2EC52323C5EA28DAA99F1E1A90D /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = D97C0D7D0C2F51AB320C67865C5483A3 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB3304B6884F626BC54150AC7565E18 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7610BBBD5A136B46BBE1079E7CEEFE6B /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1B0389CD88AA949B34DC7269030FEC6F /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD41388C68D32C124E1401DCEBE914 /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -33,7 +34,7 @@
 		1F4D5DB6CB3F389BEB36A2835B94C6D5 /* OCMock.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C0F8DE2CC22CBEF38AC4AA97633043 /* OCMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		201BF9C605852822CA5A65ADE282A310 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A606EAB3456DA7084223FF134F9E2E /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		204D694B03BFF3B244A6AB73FACFFC43 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2A5537252A83035560F64134966AD3 /* Expecta-dummy.m */; };
-		21CD66437C4683F1D5F0AE94449D5A98 /* Pods-ForceTouchActionsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1CFB01F2AA635AB0D5108D59B6C845 /* Pods-ForceTouchActionsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21CD66437C4683F1D5F0AE94449D5A98 /* Pods-ForceTouchActionsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33449C1111C64E992AC351F34B63D2F7 /* Pods-ForceTouchActionsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		260BC7EED9289AF321A6F791964CE472 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F970BD722CDF36AA1FE08D1F5360630 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279F18F55E34CD17BB3521695DD4B8EC /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C13AE4B5697917C4B002DC334EBD32C /* XCTestSuite+QuickTestSuiteBuilder.m */; };
 		2916A0606136A9DC67F2463AB230868B /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A741133D5833BA83F779965465C1B2 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,8 +48,10 @@
 		2E14619153A453BB8DF389FB6EA147BE /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E12AC1924EC2FA167CF1B04681BD07 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EAE48909AEFC394E757F7794EFA8945 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C181610F0CF3619C2ABE757B7AC286 /* World.swift */; };
 		2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AA547AF29D028FF01C9B4916FCCA6A /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30467892D4ED21F97E210C29108D43EF /* ForceTouchActions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A9C98B6AEACE0E05532617D59708DA /* ForceTouchActions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		334F3E1D0909A74EBC92E7C10B50F640 /* ForceTouchActions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1AA29999F49A481AF146483163CCC7 /* ForceTouchActions-dummy.m */; };
 		3360045A87FAD3EAAD730623BB4F4C54 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E470E665E94B18897F2E4ECADFD8C4E /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33E1DAE0F206D57B129A470F65630514 /* Pods-ForceTouchActionsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6EB64ACB1FD7F20A2C848CA63A01C0 /* Pods-ForceTouchActionsTests-dummy.m */; };
+		33E1DAE0F206D57B129A470F65630514 /* Pods-ForceTouchActionsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 523DEBDECA49514EC98DEE021DECA7A6 /* Pods-ForceTouchActionsTests-dummy.m */; };
 		346B6D672C01EE3DD8EE16B04229F183 /* OCMRealObjectForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F060C4FC2669E436B6C60E0B78EE0 /* OCMRealObjectForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		34B6E9A30603BEBBD87BA535B7D384CA /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB365A7A37504F23D2986BCD6C6B97E /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		372F7A9CCE59CE86316CF436F832A3FC /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E75B57D7A8D7C79044B8A8DE51ED747 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,13 +66,17 @@
 		42498CF985FE0CE9DD90DD683266CC18 /* OCMInvocationExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1FDCC668158A069BDD6DC7B29A93F6 /* OCMInvocationExpectation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		46137F5CC368BF38BAF0D0AF81DD8FFE /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D7426AC0A90124F530BA5BF6FF2AF6 /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		471FD4F68E27AB26FA2AEBB8B245CEE4 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B8F06C11033B401EAD597020B9B996 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		486B8B7535BBCD7DC6B9FC0644D7D4A1 /* FTActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9AB969CCCC4FC6C2D5410EA340B5F8 /* FTActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48DDD9BE0005FDDF9C91EBE57B03D1D4 /* OCMIndirectReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 79617752D41D79A72264BD9516E8D053 /* OCMIndirectReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		49DB462C455568591A759157D2850B86 /* OCObserverMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 35399E067848E86BB352E6DE50614DCD /* OCObserverMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B652D260257D4688C6A62ADF68B6265 /* FTShortcutIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4EF8F5B09583F60E51EBAB9EFF9F0 /* FTShortcutIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4BBCBB9D8EF0B241A4A4FE4982985481 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B8090A43695EA2F6022C7F8816D7BE /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4E91FC9241DAF2AFAC03983082025C10 /* OCMReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C2F4B5D6990C87F0EAFC1CDA57CF14 /* OCMReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4ECCDEF1D4BA8D11BCA5E7BBF29DC427 /* NSMethodSignature+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D531364076EA0E2949AD80AFC344B7 /* NSMethodSignature+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4F6FD9B9C70242EB5B0B0E2F67F98B0F /* String+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CB76A89E5229632C3E01C03F684E1 /* String+FileName.swift */; };
 		4F9B10FBCFD27049B96BDBA9EAF83736 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D0F2469ADB2F6264A0F75B5EA61096 /* QCKDSL.m */; };
+		4FD23A79D7F96E0916160C3D148FF4F6 /* FTShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = F669737A24795C5F9811AFA8EC22BF6B /* FTShortcut.m */; };
+		5002E5075FEEF0CA73243C39FF725438 /* FTShortcut.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B69AE140B3ABFBB4944B841D5A0787A /* FTShortcut.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51DDDB0FB4899757CF6A826B531B940D /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C6023D6B0D7F21A10F5C313E2BD21226 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55107C79C22E46BA0E03017D2CD2E18B /* OCMBlockArgCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E20A3C31720FFE18C9DEF92277D011 /* OCMBlockArgCaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		558F6F1FA45C4C395E665F2E3DC68F15 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFF92EE2A76BD2DE3CBEEA6205EAC5 /* QuickSelectedTestSuiteBuilder.swift */; };
@@ -78,11 +85,13 @@
 		5BA53A42B4B0FF9FEEAC39DFB8BBFD5D /* OCMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C495CDA13E88E222E262CCDCCD022FE3 /* OCMock-dummy.m */; };
 		5D1504F4F7CD54C04E7A62A5DC4D5D67 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CC52E6CE815D8E804FC78987E63245 /* QuickConfiguration.m */; };
 		5D7A5ED2A4EC0BE072A11A5DA7B878A5 /* NSMethodSignature+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 88003BBC0D682BAA71F8876EA86DB438 /* NSMethodSignature+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D9D37AB699970D1E69298C51EF60F8C /* FTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0D6E3D32772A9108DA9DEAE9E5F745 /* FTConstants.m */; };
 		5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = D3E0A3D5DB4A40E8BDA8BFE01C66F21C /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EAE68289C20BAF2B5CBC16F19727326 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884BCD3C21CA1090BB9013C200E8B77 /* World+DSL.swift */; };
 		5F95FFA001F7D021C9D3D0D1262F4BD2 /* NSValue+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0561380EED9676A097BF7B58834F2FCF /* NSValue+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5F9C3D4473E83A653BB9B4A72E81154E /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482536F93B33808604674A7D9DC45EC /* Callsite.swift */; };
 		61951F55E72A85F89699527A9C69901E /* NSNotificationCenter+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D53F718BF14F4F7BCD561A83B455246 /* NSNotificationCenter+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6543DCCBB3FF05F0EFE54DBC524C9CC5 /* FTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1422A966EECF086BF89D7B1307D37660 /* FTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65BC31095CCDFC80CBF6BBA843751F23 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF864DE7C06D98AF2E7F8A4B1757ADB /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65BD2EAA1888CC88B8CA7E28B4F9EAEB /* OCMLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A600F71AAA3E534545698118E0D27CA /* OCMLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A27898E989A3FA5C15AA671C4536F0 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A8056B47B32660C0D9F78ADC7B99F8 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -90,11 +99,13 @@
 		686B378129E94577605E62FD1572EFD3 /* OCMExpectationRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3251D569E3624D047B02FF4ADCD0A993 /* OCMExpectationRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		69CB28B1446963CE44FD81251FC9B338 /* OCMRealObjectForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = 458B7237ED300B386F2C3CE294FC1FE0 /* OCMRealObjectForwarder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6CC12BC4E10DAD9B5FF8E2BA41A9C8A0 /* OCMReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC83A04D565C335B4B97B6D89E4588B /* OCMReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DE30B1311208F2455DFDEB1F80E2E3F /* UIApplicationShortcutItem+FTApplicationShortcutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 526C023A3A00DAE20126AE5BCB31773E /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E1D978790705E137FDE439AA68DD3AA /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C17167D82AC6A009A5BC845FC707E83 /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ED60777B8769FB9206AD6DB480C6975 /* OCMExpectationRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B363709D58156430C8D8A8687927C7A /* OCMExpectationRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6EE13E7081A90E161B9AD9157BDF1B8F /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB174888BDFBBFAA6677373955B2612 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6EFC63A5CED45BB39FC79D87F2C47D6B /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9926A28ED3E3B99CAE8F222E73938A /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F278423C8AE1DA47F35E374BB5B91EC /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B9143107EE8E59DE52F311802C84A74C /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6F2D37C256D47EFCA1DCDDABCC231FF7 /* FTActionsIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = D632010DD07FAAD25A90418C38BFF600 /* FTActionsIcon.m */; };
 		709045A696090D50CB6AA40BD8991B58 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36AF58476EBD8566986E81B138C3D9A /* ExampleHooks.swift */; };
 		71D11C5381BD48EEBE41B761925A7602 /* OCClassMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5B42201F9FF5256D9A4F973B997AD /* OCClassMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		75590CD1E4916B13C22A56FF92B5016F /* NSNotificationCenter+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2283765438A8998F4C808D5C577FE1C8 /* NSNotificationCenter+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -103,6 +114,7 @@
 		76D337327C10A7555447B69AA1562647 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A5937290B5FB57FFC71B7EC396FC5 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		782A052F46927F486092F43622F6AB2D /* OCMBlockCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D8DA368421B761A41E0B0D808AB6C4 /* OCMBlockCaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		78D00A49953FB8DDC39334CD40B8C713 /* OCMMacroState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B215547FE3E496EA6F9FE233AC6DC29 /* OCMMacroState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		792574C2EFEE3668AA0D1C913D548946 /* ForceTouchActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F8D85FB545087953B153461A3FFF11 /* ForceTouchActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79558B1F97ABE4AB8942DC18BEBD4B82 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 56BB806C7FD791D15E58855FCF71D9A8 /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		797D76D6582EE431937A33BB1E662270 /* OCMInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7221CFCF31C7E7E74C6BCE2E1432BA /* OCMInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7B223B4E6EF14BA12DA113F7EE10B96C /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B739718C31631687A8C7DB0980F052 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,14 +136,16 @@
 		918E06480F28F27361B19D19432F8538 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 2550E71403389DEEEB0168DF4BDF66C0 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		924869A06D77711868AC91B9F896FCDA /* OCMConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FF396DE27A352F6E5DEFA9BA750411A7 /* OCMConstraint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		931D410B9F8ACB935883DF8C59F9C93E /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F4772B48DB712A16BA152CCC3D043B /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		947ECC01068DBAE9F31A50855228B7E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		94C47C87E397972CE98F75929F3B706C /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1755812EB88C0337E60586654548AC /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9501D11D86F452C48D5E33525B5C3C35 /* OCMFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E19425460C83E5A67A9F60D535DA67 /* OCMFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B2E761A064459F77EA9870BEF03ACC3 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = E09F7C267C54FC75AB58A0672769EAEE /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB9159FBA757600D3D4C0FF645F3911 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = C36960BECFEF498FA9EFC95DC9D43EB5 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9C410230DB93AD3BFB98265DF0CD34E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
+		9F51114788E0D8B37A6507914DEC1741 /* Pods-ForceTouchSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E43668C795A95118EB73E200EBB3835 /* Pods-ForceTouchSample-dummy.m */; };
 		A4393F79E3D5628C07E1D9D6F87749F0 /* OCMStubRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = B9B7579DBD52392826F96D652CBA25B4 /* OCMStubRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A49832C29637716A807180254EE009F7 /* OCMNotificationPoster.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FCC2F19BF5A3672B755E8EF9ABFA1D4 /* OCMNotificationPoster.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A49F4759E54607683755F7135D00806B /* Pods-ForceTouchActions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE005043DB00A7A7A0E9D61E07A59 /* Pods-ForceTouchActions-dummy.m */; };
+		A56B31D514D096B7C29FBE0AE1826A72 /* FTActions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B0EC46E8D163D16476959E462F6CCB /* FTActions.m */; };
 		A6B7C730B8F621AF9EA9ED8F280C00D0 /* OCMArgAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1D73068AB8EC462B489CEE17392BD7 /* OCMArgAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A8C187181C77CEABC83CD9CCFB387089 /* OCClassMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B263925FA18C5883B682517759CF0BC /* OCClassMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AA29D6EF9537E1DD8DF16AD0B20BC3D0 /* OCMFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C20DC499E6DEAB2AE47D084864CA09 /* OCMFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -141,7 +155,6 @@
 		AFFC8900E52BBEC72059334132F3A8F3 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 227FF0307DACBAE4029B5E740845482C /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0CE1166586A35238256CDF1A4C588EA /* OCMRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3B878A2C547EA832E2BC1C15F39485 /* OCMRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3271E519116E34124B9C07577C31BFD /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A48766D81CBAC4CB082EA79ED09D14DD /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B452D9A336498D8D34BDF4F9A8F723C6 /* Pods-ForceTouchActions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8800FA102ACF4700CD7A5BBE65122D /* Pods-ForceTouchActions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4F869A84D05F56D59840B99292C6FC6 /* OCMIndirectReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E597C703572143874AB2D9A30C4C20C3 /* OCMIndirectReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B7185ADC751C1C1B68DCE07933CF0CB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		B84431CF8C64F363A334AA7089F6C134 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 1880A9401E68E90C33F430D5C1BE4658 /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -154,6 +167,7 @@
 		C258007AFD6E1A2A715080B9D53275AB /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398AB86AF566FB0BE904930D3A141A02 /* Closures.swift */; };
 		C2D4CE2E02AC482D65279A64B3931A91 /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = 196E20694007AF5D98DE383E94871CEC /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CA486CC72279C489774A7731058948CF /* OCMArg.m in Sources */ = {isa = PBXBuildFile; fileRef = 908A0C9DC4DE413681A56E9FA3AA1AB1 /* OCMArg.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CB6662872DF5ACF6F94992AD45A6C395 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */; };
 		CC67C9CD833391C510699478E0313D8D /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CD9551E537CF32ECE236B16B722BAE /* Quick-dummy.m */; };
 		CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = D622C30E95AA6DD1FFAC8835B6147D46 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CF7C74A41A746CE32F09E3910A0AD1CD /* OCMVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 32554DD2BF9EF00A933E0A9BF28C1FB5 /* OCMVerifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -170,12 +184,14 @@
 		E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E67CCEE90AA17344699D32DA77AF8F1B /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E0AAF49134A0505DF00E20E7B62087E1 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = A67A261A24E70C6E57E8F5E68DCE67FD /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1EC4532663CA75DE5BD00CB0A56814D /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D73636540557701033EF4F1D4F3309D /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E24DCD5689C7C7A8934D481230C9D6E7 /* FTActionsIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA38BC2F4B7DCD5C3962FD421637C0B /* FTActionsIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2EC03F8A7E04450C40CA6E47EFE1B7B /* OCMBlockArgCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C37EE708A1FAFA9C313B433FA7EC77 /* OCMBlockArgCaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E735386085CE344F6A01178CF4763852 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = BAD51CC216D233D95D354B33F5CFD15D /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8F4A8B5684E887DC2A52226DA008F00 /* NSObject+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD3C199338A3DD8DAA1D25DE3071ED1 /* NSObject+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EA501005DC0DF2F6DBC7B3EBB26A57EE /* OCMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 654B4ACC7C1726310203955C3EA9E4F9 /* OCMockObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA720C6A097240E4F30D79D675DC01EF /* OCMVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC6AC6D291B8F2612093D09A534A5EB /* OCMVerifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EBA47725933A76A885B84EE874FBC421 /* OCObserverMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E59B5C432E2A870389FA4F093481AAB5 /* OCObserverMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EBF8DDE32E9372E3ECFB3CAE9DB25F39 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7696974C8D38667F9AEC65FB80F702 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m */; };
 		ED0C0034F9FAD7D6D63ABA069BC3118F /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1633BCB96AB3B519F6CE53C9A0AD4E /* NSString+QCKSelectorName.m */; };
 		EE4390AA2DA83D5BCC44952F3B004697 /* OCMBoxedReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 175D48CFEA8E86932D754CF8591EC0B2 /* OCMBoxedReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD9A5976A44849877E64EA447863F7C /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -212,6 +228,13 @@
 			remoteGlobalIDString = 3F26A6A1067DB1BD07BABF2D760A401C;
 			remoteInfo = Quick;
 		};
+		87DDBE6E77023D20AAA2325DD2DF2AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1486425A133EA728B25AC6EB38760033;
+			remoteInfo = ForceTouchActions;
+		};
 		DF0A3278FFDD621A8658592788F49E87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -228,30 +251,37 @@
 		05EE2FFBAD78FD89579E3757DD900567 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
 		090B10665B98CA6DBB81CC0FD7D5E720 /* OCPartialMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCPartialMockObject.m; path = Source/OCMock/OCPartialMockObject.m; sourceTree = "<group>"; };
 		09B739718C31631687A8C7DB0980F052 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
+		09F8D85FB545087953B153461A3FFF11 /* ForceTouchActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ForceTouchActions.h; sourceTree = "<group>"; };
 		0B215547FE3E496EA6F9FE233AC6DC29 /* OCMMacroState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMMacroState.m; path = Source/OCMock/OCMMacroState.m; sourceTree = "<group>"; };
+		0B61C1B7C84615602B335E958BF62005 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C69514E8C11711A614C7F0738885C0B /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
+		0E43668C795A95118EB73E200EBB3835 /* Pods-ForceTouchSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ForceTouchSample-dummy.m"; sourceTree = "<group>"; };
 		0E470E665E94B18897F2E4ECADFD8C4E /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/Quick/DSL/QCKDSL.h; sourceTree = "<group>"; };
-		1278153D84725348E2D31C50567E9DC0 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		102BE6201822FE76B0274E2815A2467E /* Pods-ForceTouchSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ForceTouchSample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		12C7B062896848F536381486100BFE28 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
+		13021232FC63DE47779E20946E48C9FC /* Pods-ForceTouchSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ForceTouchSample.modulemap"; sourceTree = "<group>"; };
+		13929EFA0E4FB244CDADAE5518EDBC04 /* Pods-ForceTouchSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchSample-resources.sh"; sourceTree = "<group>"; };
 		13D7426AC0A90124F530BA5BF6FF2AF6 /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
+		1422A966EECF086BF89D7B1307D37660 /* FTConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTConstants.h; sourceTree = "<group>"; };
 		175D48CFEA8E86932D754CF8591EC0B2 /* OCMBoxedReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBoxedReturnValueProvider.m; path = Source/OCMock/OCMBoxedReturnValueProvider.m; sourceTree = "<group>"; };
-		1787A67CEA0B84B11B0B621E91D4A7E2 /* Pods-ForceTouchActionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchActionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		178B584A0CC79271CBB3C73BC8117C05 /* Pods_ForceTouchActionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchActionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CD9551E537CF32ECE236B16B722BAE /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
-		18786A449C6944276BB507F5D5AE94A0 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1880A9401E68E90C33F430D5C1BE4658 /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		190B357AB16DBECCED1E54AF04F954EB /* OCMConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = Source/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
 		196E20694007AF5D98DE383E94871CEC /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QCKSelectorName.h"; path = "Sources/Quick/NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
 		19D531364076EA0E2949AD80AFC344B7 /* NSMethodSignature+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+OCMAdditions.m"; path = "Source/OCMock/NSMethodSignature+OCMAdditions.m"; sourceTree = "<group>"; };
-		1A8800FA102ACF4700CD7A5BBE65122D /* Pods-ForceTouchActions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ForceTouchActions-umbrella.h"; sourceTree = "<group>"; };
 		1B363709D58156430C8D8A8687927C7A /* OCMExpectationRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMExpectationRecorder.m; path = Source/OCMock/OCMExpectationRecorder.m; sourceTree = "<group>"; };
+		1B69AE140B3ABFBB4944B841D5A0787A /* FTShortcut.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTShortcut.h; sourceTree = "<group>"; };
 		1B939FB19D56F072049575238C2DBBF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C6C0EBC2C5B3CFC67157A81EF8B7357 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
-		1D1F34E7E4D0C14B815B74D014FFA7CC /* Pods-ForceTouchActionsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchActionsTests-resources.sh"; sourceTree = "<group>"; };
 		1D53F718BF14F4F7BCD561A83B455246 /* NSNotificationCenter+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+OCMAdditions.m"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.m"; sourceTree = "<group>"; };
 		1DB174888BDFBBFAA6677373955B2612 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/Quick/World.h; sourceTree = "<group>"; };
 		1E0241FF926859022CB69A878DEFBD96 /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
+		1F08BF970F9FD502F203D58612D9F475 /* Pods-ForceTouchActionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchActionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F7696974C8D38667F9AEC65FB80F702 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplicationShortcutItem+FTApplicationShortcutItem.m"; sourceTree = "<group>"; };
 		227FF0307DACBAE4029B5E740845482C /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
 		2283765438A8998F4C808D5C577FE1C8 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		229A3CD68146E05A0D7DD7750F9B4732 /* ForceTouchActions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForceTouchActions-prefix.pch"; sourceTree = "<group>"; };
 		2550E71403389DEEEB0168DF4BDF66C0 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		256194894C83FD6D295BB8D10F2CF253 /* OCMPassByRefSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMPassByRefSetter.h; path = Source/OCMock/OCMPassByRefSetter.h; sourceTree = "<group>"; };
 		2655F3ED80DA26A95AB909B76DC1FEBD /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
@@ -268,18 +298,17 @@
 		3242168BD9CA5013EBA9A03872290C3A /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
 		3251D569E3624D047B02FF4ADCD0A993 /* OCMExpectationRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMExpectationRecorder.h; path = Source/OCMock/OCMExpectationRecorder.h; sourceTree = "<group>"; };
 		32554DD2BF9EF00A933E0A9BF28C1FB5 /* OCMVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMVerifier.m; path = Source/OCMock/OCMVerifier.m; sourceTree = "<group>"; };
+		33449C1111C64E992AC351F34B63D2F7 /* Pods-ForceTouchActionsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ForceTouchActionsTests-umbrella.h"; sourceTree = "<group>"; };
 		33927D88371EE7CCB4A6311F07BE837D /* NSObject+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+OCMAdditions.m"; path = "Source/OCMock/NSObject+OCMAdditions.m"; sourceTree = "<group>"; };
 		339F992861B5C64952317F155A3BE48A /* OCMBoxedReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBoxedReturnValueProvider.h; path = Source/OCMock/OCMBoxedReturnValueProvider.h; sourceTree = "<group>"; };
-		349C0DF3ADF7924DBF87DF471DA313A4 /* Pods-ForceTouchActions-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchActions-frameworks.sh"; sourceTree = "<group>"; };
 		35399E067848E86BB352E6DE50614DCD /* OCObserverMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCObserverMockObject.h; path = Source/OCMock/OCObserverMockObject.h; sourceTree = "<group>"; };
 		37ADA691A47F456BC2A99BDCFA8EB690 /* OCMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMock.xcconfig; sourceTree = "<group>"; };
 		37D2CCCBD8CCA44625BDAF2818199F9B /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
 		398AB86AF566FB0BE904930D3A141A02 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		3B1633BCB96AB3B519F6CE53C9A0AD4E /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QCKSelectorName.m"; path = "Sources/Quick/NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
 		3C13AE4B5697917C4B002DC334EBD32C /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/Quick/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
-		3C81045B1AEBE1851C37FB13CCB4BE33 /* Pods-ForceTouchActionsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ForceTouchActionsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3CAF28F1C0D1000C7DABBA32DFBD1F51 /* Pods-ForceTouchActionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchActionsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3D158D55F79F0DDE05C995EB3788E3E3 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
+		3D2E275B41E4D035E3C094D0BD8CDEE0 /* Pods-ForceTouchSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchSample-frameworks.sh"; sourceTree = "<group>"; };
 		3D7A5937290B5FB57FFC71B7EC396FC5 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		3FA6AE242A508775A8B6D45520B1452C /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		3FCC2F19BF5A3672B755E8EF9ABFA1D4 /* OCMNotificationPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMNotificationPoster.h; path = Source/OCMock/OCMNotificationPoster.h; sourceTree = "<group>"; };
@@ -290,51 +319,62 @@
 		458B7237ED300B386F2C3CE294FC1FE0 /* OCMRealObjectForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMRealObjectForwarder.h; path = Source/OCMock/OCMRealObjectForwarder.h; sourceTree = "<group>"; };
 		466D88721444CDA5DB1CAEC1A616F093 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
 		471F32D2E9F0A565FCE2D760B6820B7D /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
-		4A6EB64ACB1FD7F20A2C848CA63A01C0 /* Pods-ForceTouchActionsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ForceTouchActionsTests-dummy.m"; sourceTree = "<group>"; };
 		4BD04A286961710FC98BD74E86F099D9 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Expecta.modulemap; sourceTree = "<group>"; };
+		4C0D6E3D32772A9108DA9DEAE9E5F745 /* FTConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTConstants.m; sourceTree = "<group>"; };
 		4EA13F57678AFAB4CF6AA82674F83075 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/Quick/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		509BD54CCFE3D11FA7A95587D2BCA5B0 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		50C181610F0CF3619C2ABE757B7AC286 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
+		51A9C98B6AEACE0E05532617D59708DA /* ForceTouchActions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ForceTouchActions-umbrella.h"; sourceTree = "<group>"; };
+		523DEBDECA49514EC98DEE021DECA7A6 /* Pods-ForceTouchActionsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ForceTouchActionsTests-dummy.m"; sourceTree = "<group>"; };
+		526C023A3A00DAE20126AE5BCB31773E /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplicationShortcutItem+FTApplicationShortcutItem.h"; sourceTree = "<group>"; };
 		54A07B0D73AF752F33B6659DE0476DC6 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		54C20DC499E6DEAB2AE47D084864CA09 /* OCMFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMFunctions.m; path = Source/OCMock/OCMFunctions.m; sourceTree = "<group>"; };
 		54F7EA449C05505E4070993B534800FF /* OCMock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-umbrella.h"; sourceTree = "<group>"; };
-		55D0DA2B44EC333E20A0243CCA59C90F /* Pods_ForceTouchActionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchActionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5658467240DC48400D71BEFCAEA5EE2E /* Pods-ForceTouchActionsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ForceTouchActionsTests.modulemap"; sourceTree = "<group>"; };
 		56BB806C7FD791D15E58855FCF71D9A8 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		57B8F06C11033B401EAD597020B9B996 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		591ACB8338B353562289E051EBF69B1A /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		59662CA7DDDEAD097B0AE3776EC07528 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		5A22AAC94EEC960EC34FC1015CDE5E29 /* OCMRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRecorder.m; path = Source/OCMock/OCMRecorder.m; sourceTree = "<group>"; };
+		5A27A44257FB530795FB782FEBE58303 /* FTShortcutIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTShortcutIcon.m; sourceTree = "<group>"; };
 		5A600F71AAA3E534545698118E0D27CA /* OCMLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMLocation.h; path = Source/OCMock/OCMLocation.h; sourceTree = "<group>"; };
 		5A81DE7555641B9EDB64450BE0198EFF /* OCMExceptionReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMExceptionReturnValueProvider.h; path = Source/OCMock/OCMExceptionReturnValueProvider.h; sourceTree = "<group>"; };
 		5AF864DE7C06D98AF2E7F8A4B1757ADB /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
+		5BA38BC2F4B7DCD5C3962FD421637C0B /* FTActionsIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTActionsIcon.h; sourceTree = "<group>"; };
 		5C3B878A2C547EA832E2BC1C15F39485 /* OCMRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMRecorder.h; path = Source/OCMock/OCMRecorder.h; sourceTree = "<group>"; };
 		5DB6FF5F146952CBC1E79E7A1B2E5A84 /* OCMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-prefix.pch"; sourceTree = "<group>"; };
 		5E490373D98EA94F58CDC084527A7E00 /* NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMAdditions.h"; path = "Source/OCMock/NSInvocation+OCMAdditions.h"; sourceTree = "<group>"; };
-		5E496CCBCCD6A2357AF332F5E1E564E2 /* Pods-ForceTouchActionsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ForceTouchActionsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E67B5639073A0E02EF451A8D43D71AD /* OCMExceptionReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMExceptionReturnValueProvider.m; path = Source/OCMock/OCMExceptionReturnValueProvider.m; sourceTree = "<group>"; };
 		5E75B57D7A8D7C79044B8A8DE51ED747 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		60AD41388C68D32C124E1401DCEBE914 /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
+		60F4025F5F27A09616DF2942377D7EC2 /* Pods-ForceTouchActionsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ForceTouchActionsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		61D0F2469ADB2F6264A0F75B5EA61096 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		640CA3F9020E103E446D1B7FF8E96744 /* OCMNotificationPoster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMNotificationPoster.m; path = Source/OCMock/OCMNotificationPoster.m; sourceTree = "<group>"; };
 		6514DAB0F377876D78A3042B79EFD7EB /* OCMArg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = Source/OCMock/OCMArg.h; sourceTree = "<group>"; };
+		65283102054B5F82DF8E7E99E56DD846 /* Pods-ForceTouchActionsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ForceTouchActionsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		654B4ACC7C1726310203955C3EA9E4F9 /* OCMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = Source/OCMock/OCMockObject.h; sourceTree = "<group>"; };
 		6A37805D25A2B80BF6D8527EE690DF1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AD6B8A09B83AD5410CCA871772725E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B57C37F37C4B7CC8749428E7ABFE2CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B8F060C4FC2669E436B6C60E0B78EE0 /* OCMRealObjectForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRealObjectForwarder.m; path = Source/OCMock/OCMRealObjectForwarder.m; sourceTree = "<group>"; };
 		6C888D3F4C1780D629E8EB34269CBC84 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		6CC83A04D565C335B4B97B6D89E4588B /* OCMReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMReturnValueProvider.m; path = Source/OCMock/OCMReturnValueProvider.m; sourceTree = "<group>"; };
 		6D73636540557701033EF4F1D4F3309D /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
+		6DA983EE7820C832C81124EF575C561A /* Pods-ForceTouchSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchSample.debug.xcconfig"; sourceTree = "<group>"; };
 		6F56E83CAF347CEFB6E4361523C888E0 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		72A741133D5833BA83F779965465C1B2 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		7489358877B835960CE3639D514CA46E /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		7499E1C636C0916EFFA4CE80088E1032 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		7610BBBD5A136B46BBE1079E7CEEFE6B /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
-		767B5562F6B42DB4125997456057044B /* Pods-ForceTouchActionsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ForceTouchActionsTests.modulemap"; sourceTree = "<group>"; };
-		76CF96637173AA944C494A396D2A827E /* Pods-ForceTouchActions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchActions.debug.xcconfig"; sourceTree = "<group>"; };
+		76759D62ACE0FFA5214D8AB9C97D1351 /* Pods_ForceTouchSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7935AEBE18D14E40C1F39B58F044E6B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79617752D41D79A72264BD9516E8D053 /* OCMIndirectReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMIndirectReturnValueProvider.h; path = Source/OCMock/OCMIndirectReturnValueProvider.h; sourceTree = "<group>"; };
+		7A9AB969CCCC4FC6C2D5410EA340B5F8 /* FTActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTActions.h; sourceTree = "<group>"; };
+		7B1AA29999F49A481AF146483163CCC7 /* ForceTouchActions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ForceTouchActions-dummy.m"; sourceTree = "<group>"; };
 		7C0CECAF648A06CF3750582222E1F63A /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
 		7EAF504FC2E92986918F08DF7FC99072 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		824B4D2ED93328C19B902F6B344DA29D /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
+		82802EC2702DD7F58F3B3B8214BF6624 /* Pods-ForceTouchActionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchActionsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		82C3222999911485B65A90ABAC0EDCAA /* OCPartialMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCPartialMockObject.h; path = Source/OCMock/OCPartialMockObject.h; sourceTree = "<group>"; };
 		8482536F93B33808604674A7D9DC45EC /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		86B1D7E449D8F9F98F86353EB27AF9D3 /* OCMArgAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArgAction.m; path = Source/OCMock/OCMArgAction.m; sourceTree = "<group>"; };
@@ -346,11 +386,12 @@
 		8CC6AC6D291B8F2612093D09A534A5EB /* OCMVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMVerifier.h; path = Source/OCMock/OCMVerifier.h; sourceTree = "<group>"; };
 		8D73E416865539B027E10B1BCD74A5D5 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/Quick/QuickSpec.m; sourceTree = "<group>"; };
 		908A0C9DC4DE413681A56E9FA3AA1AB1 /* OCMArg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArg.m; path = Source/OCMock/OCMArg.m; sourceTree = "<group>"; };
+		90D4EF8F5B09583F60E51EBAB9EFF9F0 /* FTShortcutIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTShortcutIcon.h; sourceTree = "<group>"; };
+		9373B1379BCFA3670ED7D03EB145F2BC /* Pods-ForceTouchSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchSample.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94A164B7F38E5222117286031C6F3123 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
 		9626CDBEF82D60427CF5A9F91C9987EC /* NSValue+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+OCMAdditions.m"; path = "Source/OCMock/NSValue+OCMAdditions.m"; sourceTree = "<group>"; };
 		9632D282BF69743DDB879C0B94399520 /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
-		9696D01144B1727E00E2E63070AA7168 /* Pods-ForceTouchActions-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ForceTouchActions-acknowledgements.plist"; sourceTree = "<group>"; };
 		97064FF8746F1FF1E596D607C39BF891 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		9884BCD3C21CA1090BB9013C200E8B77 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		9C17167D82AC6A009A5BC845FC707E83 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
@@ -362,20 +403,20 @@
 		A0FBCB2F6DB63D18A808508D7CC3905E /* OCMMacroState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMMacroState.h; path = Source/OCMock/OCMMacroState.h; sourceTree = "<group>"; };
 		A3FEA320E156C8F5E7756BBCED43E0E6 /* OCMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMockObject.m; path = Source/OCMock/OCMockObject.m; sourceTree = "<group>"; };
 		A48766D81CBAC4CB082EA79ED09D14DD /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
-		A6438ED04C9F9B8B76AE825E78F1E361 /* Pods_ForceTouchActions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForceTouchActions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67A261A24E70C6E57E8F5E68DCE67FD /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		A7A1963E76DBC87C80881A56559A97EB /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		A8C0F8DE2CC22CBEF38AC4AA97633043 /* OCMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = Source/OCMock/OCMock.h; sourceTree = "<group>"; };
-		AA1CFB01F2AA635AB0D5108D59B6C845 /* Pods-ForceTouchActionsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ForceTouchActionsTests-umbrella.h"; sourceTree = "<group>"; };
+		A9A97BB6254739227FDA9BD3CCFF2CC3 /* Pods-ForceTouchActionsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchActionsTests-resources.sh"; sourceTree = "<group>"; };
 		AAC405455F8E20BD0434D9D3E3D2879A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AB846A6CB30C1C85E78ABF29212A6A2D /* OCMPassByRefSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMPassByRefSetter.m; path = Source/OCMock/OCMPassByRefSetter.m; sourceTree = "<group>"; };
 		AB8ABBF96CE5AE620B067A8B989956A6 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/Quick/Quick.h; sourceTree = "<group>"; };
 		AD7395E19F04C8F5504F5757D6D0E51F /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		AF194A32B2CD5DEBA5703317959621F6 /* OCMObserverRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMObserverRecorder.h; path = Source/OCMock/OCMObserverRecorder.h; sourceTree = "<group>"; };
 		B0E3ADD1D1FBCB695C4FAB6382B57AA4 /* OCProtocolMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCProtocolMockObject.h; path = Source/OCMock/OCProtocolMockObject.h; sourceTree = "<group>"; };
-		B10D156A50BE148A7D950B6A12CCF7EF /* Pods-ForceTouchActions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ForceTouchActions.release.xcconfig"; sourceTree = "<group>"; };
+		B22EA2F52C47561086F8FF567C0AEE2C /* Pods-ForceTouchSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ForceTouchSample-umbrella.h"; sourceTree = "<group>"; };
 		B36AF58476EBD8566986E81B138C3D9A /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
 		B36E72A3387F17B81CF0B375D531BE36 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
+		B4693F776D14316C46F55ED1C1CCCBDB /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B9143107EE8E59DE52F311802C84A74C /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
 		B9B7579DBD52392826F96D652CBA25B4 /* OCMStubRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMStubRecorder.h; path = Source/OCMock/OCMStubRecorder.h; sourceTree = "<group>"; };
@@ -385,30 +426,33 @@
 		C1AA547AF29D028FF01C9B4916FCCA6A /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		C36960BECFEF498FA9EFC95DC9D43EB5 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		C393F759ABFBCEF8D9937CC0F6051FD1 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/Quick/QuickSpec.h; sourceTree = "<group>"; };
-		C3E509F614C40C2BD94DD0A2E3ACCC08 /* Pods-ForceTouchActions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ForceTouchActions.modulemap"; sourceTree = "<group>"; };
 		C495CDA13E88E222E262CCDCCD022FE3 /* OCMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock-dummy.m"; sourceTree = "<group>"; };
 		C50D7FC70D33FEE9C846FD37A1B00CEC /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
 		C5DC00D10E42B22A5151648E35705A2F /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
 		C6023D6B0D7F21A10F5C313E2BD21226 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
+		C6B0EC46E8D163D16476959E462F6CCB /* FTActions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTActions.m; sourceTree = "<group>"; };
 		C7238A2FD0554CEFEC6709E77BCC2CB6 /* OCMInvocationStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationStub.h; path = Source/OCMock/OCMInvocationStub.h; sourceTree = "<group>"; };
 		C9A606EAB3456DA7084223FF134F9E2E /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
-		CA475B812D766C23450575E6982EA4CD /* Pods-ForceTouchActions-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchActions-resources.sh"; sourceTree = "<group>"; };
 		CA7EFF48C94A7CFBEDC92C19EC623519 /* OCMInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationMatcher.m; path = Source/OCMock/OCMInvocationMatcher.m; sourceTree = "<group>"; };
 		CB5CB89456DFB9F2AC392DEB51560D79 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
+		CD1967A1BE308D94DE8724572BAAB673 /* Pods-ForceTouchActionsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchActionsTests-frameworks.sh"; sourceTree = "<group>"; };
 		D1E12AC1924EC2FA167CF1B04681BD07 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
 		D28BC644097E01287608212D42EF15C5 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		D32B8275048871FCB88552357C91D083 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
 		D3E0A3D5DB4A40E8BDA8BFE01C66F21C /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		D55AFEC29819E60E025C803A9C501570 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
 		D622C30E95AA6DD1FFAC8835B6147D46 /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
+		D632010DD07FAAD25A90418C38BFF600 /* FTActionsIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTActionsIcon.m; sourceTree = "<group>"; };
 		D7A5B42201F9FF5256D9A4F973B997AD /* OCClassMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCClassMockObject.m; path = Source/OCMock/OCClassMockObject.m; sourceTree = "<group>"; };
+		D898BD4592034BD4AF72A13EF08A6E93 /* ForceTouchActions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ForceTouchActions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D44EFF52FC8F72B3553D47E353A5FD /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		D97C0D7D0C2F51AB320C67865C5483A3 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
+		DAAFE27AA71450EE96CA2E4588D94D28 /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB86E962A287E4373841E22E6AE78903 /* OCMLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMLocation.m; path = Source/OCMock/OCMLocation.m; sourceTree = "<group>"; };
 		DBF24F18A32A158CADD11A7E76A4477D /* NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMAdditions.m"; path = "Source/OCMock/NSInvocation+OCMAdditions.m"; sourceTree = "<group>"; };
 		DBF8132DC8FE65BE7B88EF8C263630C3 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		DD8D966BD76354E4691F6E82C4EE2584 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
-		DE7DE005043DB00A7A7A0E9D61E07A59 /* Pods-ForceTouchActions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ForceTouchActions-dummy.m"; sourceTree = "<group>"; };
+		DF45368C23D18D95AD0E9E520EE23D86 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09F7C267C54FC75AB58A0672769EAEE /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		E0E19425460C83E5A67A9F60D535DA67 /* OCMFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMFunctions.h; path = Source/OCMock/OCMFunctions.h; sourceTree = "<group>"; };
 		E21CB76A89E5229632C3E01C03F684E1 /* String+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FileName.swift"; path = "Sources/Quick/String+FileName.swift"; sourceTree = "<group>"; };
@@ -418,36 +462,51 @@
 		E597C703572143874AB2D9A30C4C20C3 /* OCMIndirectReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMIndirectReturnValueProvider.m; path = Source/OCMock/OCMIndirectReturnValueProvider.m; sourceTree = "<group>"; };
 		E59B5C432E2A870389FA4F093481AAB5 /* OCObserverMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCObserverMockObject.m; path = Source/OCMock/OCObserverMockObject.m; sourceTree = "<group>"; };
 		E67CCEE90AA17344699D32DA77AF8F1B /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
-		E7456485BA8AFEBB5366D8ABD55184C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7A8056B47B32660C0D9F78ADC7B99F8 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
 		E7D8DA368421B761A41E0B0D808AB6C4 /* OCMBlockCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBlockCaller.h; path = Source/OCMock/OCMBlockCaller.h; sourceTree = "<group>"; };
-		E85C1E7FF451936EF8D9662F13009EBE /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9E085AE1F2A6375A581C0F3B0AF4239 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
 		EC36869299138DA02433A094ED7E8A59 /* OCMFunctionsPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMFunctionsPrivate.h; path = Source/OCMock/OCMFunctionsPrivate.h; sourceTree = "<group>"; };
 		ECCE89F0FF3596579BEF8FBAE05C2465 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		EDC78D5F3AF53FD2B5FEDC1A3414EB37 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
 		EF1FDCC668158A069BDD6DC7B29A93F6 /* OCMInvocationExpectation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationExpectation.m; path = Source/OCMock/OCMInvocationExpectation.m; sourceTree = "<group>"; };
+		EF6D774CD30D67CEA1F7F58DACB1B2B7 /* ForceTouchActions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ForceTouchActions.modulemap; sourceTree = "<group>"; };
 		EF7221CFCF31C7E7E74C6BCE2E1432BA /* OCMInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationMatcher.h; path = Source/OCMock/OCMInvocationMatcher.h; sourceTree = "<group>"; };
 		EFEAD83CF69F99363A9C7B6D8E23C34F /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		F0A2FF1F036BEA1D0160C299FFAAAB12 /* ForceTouchActions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ForceTouchActions.xcconfig; sourceTree = "<group>"; };
 		F3FFF92EE2A76BD2DE3CBEEA6205EAC5 /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
 		F46DDE81BF24B1C3A83388F46AE83BA8 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
 		F5B8090A43695EA2F6022C7F8816D7BE /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
+		F669737A24795C5F9811AFA8EC22BF6B /* FTShortcut.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTShortcut.m; sourceTree = "<group>"; };
 		F7CC52E6CE815D8E804FC78987E63245 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
-		F8E95A4D48EDA1D1B718DA8AABA1C7A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9F4772B48DB712A16BA152CCC3D043B /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
-		FA2FC95C86A0B70B91BF0A8730D672EC /* Pods-ForceTouchActionsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ForceTouchActionsTests-frameworks.sh"; sourceTree = "<group>"; };
-		FBDF19BFB42EB6F4F45CDB8DA340147A /* Pods-ForceTouchActions-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ForceTouchActions-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA7C1A25AC716893ED1A572F896ACEF6 /* Pods-ForceTouchSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ForceTouchSample-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF396DE27A352F6E5DEFA9BA750411A7 /* OCMConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMConstraint.m; path = Source/OCMock/OCMConstraint.m; sourceTree = "<group>"; };
 		FFD1F0B3A0FF88D14BDA615A856BABF0 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1285C064C5A7CEADD758D442E9D3A9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947ECC01068DBAE9F31A50855228B7E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		79928BA81F5E857845A48ECBF16DE9EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				29C7D6F96D7EE3B0065E3E97FF5B8D96 /* Foundation.framework in Frameworks */,
 				BE7741E27ACE4B1234186ADC36E79124 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5774E7DB843D5FE9BA8B55C90F24FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6662872DF5ACF6F94992AD45A6C395 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,14 +524,6 @@
 			files = (
 				B7185ADC751C1C1B68DCE07933CF0CB5 /* Foundation.framework in Frameworks */,
 				2D0294A1F074AD370FDFE53FF14199AC /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1BEA2115299B37AD5230E98B495D0AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				194CBAC3CE0075ADA98485AE59A855A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,39 +590,40 @@
 			path = Quick;
 			sourceTree = "<group>";
 		};
+		2BDFA02AECFC70DA5AA9622348185BE9 /* Pods-ForceTouchActionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD6B8A09B83AD5410CCA871772725E7 /* Info.plist */,
+				5658467240DC48400D71BEFCAEA5EE2E /* Pods-ForceTouchActionsTests.modulemap */,
+				65283102054B5F82DF8E7E99E56DD846 /* Pods-ForceTouchActionsTests-acknowledgements.markdown */,
+				60F4025F5F27A09616DF2942377D7EC2 /* Pods-ForceTouchActionsTests-acknowledgements.plist */,
+				523DEBDECA49514EC98DEE021DECA7A6 /* Pods-ForceTouchActionsTests-dummy.m */,
+				CD1967A1BE308D94DE8724572BAAB673 /* Pods-ForceTouchActionsTests-frameworks.sh */,
+				A9A97BB6254739227FDA9BD3CCFF2CC3 /* Pods-ForceTouchActionsTests-resources.sh */,
+				33449C1111C64E992AC351F34B63D2F7 /* Pods-ForceTouchActionsTests-umbrella.h */,
+				82802EC2702DD7F58F3B3B8214BF6624 /* Pods-ForceTouchActionsTests.debug.xcconfig */,
+				1F08BF970F9FD502F203D58612D9F475 /* Pods-ForceTouchActionsTests.release.xcconfig */,
+			);
+			name = "Pods-ForceTouchActionsTests";
+			path = "Target Support Files/Pods-ForceTouchActionsTests";
+			sourceTree = "<group>";
+		};
+		40CD7A9C397A7635AC56E43639E23832 /* ForceTouchActions */ = {
+			isa = PBXGroup;
+			children = (
+				A85ACB2A2AA1F51F245E0972E31065AC /* ForceTouchActions */,
+				A8802FF0C03D46406768791282912076 /* Support Files */,
+			);
+			name = ForceTouchActions;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D24B2EA016AE4FABDB5AF17F3FD9C222 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		442DE329B1480BFD839F14F234B4965D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C714FAC96E202A79B992405599E0479 /* Pods-ForceTouchActions */,
-				895C1F4F86079FB3105BB06F10C02285 /* Pods-ForceTouchActionsTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4C714FAC96E202A79B992405599E0479 /* Pods-ForceTouchActions */ = {
-			isa = PBXGroup;
-			children = (
-				F8E95A4D48EDA1D1B718DA8AABA1C7A2 /* Info.plist */,
-				C3E509F614C40C2BD94DD0A2E3ACCC08 /* Pods-ForceTouchActions.modulemap */,
-				FBDF19BFB42EB6F4F45CDB8DA340147A /* Pods-ForceTouchActions-acknowledgements.markdown */,
-				9696D01144B1727E00E2E63070AA7168 /* Pods-ForceTouchActions-acknowledgements.plist */,
-				DE7DE005043DB00A7A7A0E9D61E07A59 /* Pods-ForceTouchActions-dummy.m */,
-				349C0DF3ADF7924DBF87DF471DA313A4 /* Pods-ForceTouchActions-frameworks.sh */,
-				CA475B812D766C23450575E6982EA4CD /* Pods-ForceTouchActions-resources.sh */,
-				1A8800FA102ACF4700CD7A5BBE65122D /* Pods-ForceTouchActions-umbrella.h */,
-				76CF96637173AA944C494A396D2A827E /* Pods-ForceTouchActions.debug.xcconfig */,
-				B10D156A50BE148A7D950B6A12CCF7EF /* Pods-ForceTouchActions.release.xcconfig */,
-			);
-			name = "Pods-ForceTouchActions";
-			path = "Target Support Files/Pods-ForceTouchActions";
 			sourceTree = "<group>";
 		};
 		5F59458FACE3336490EB96FC6B869B07 /* OCMock */ = {
@@ -668,41 +720,94 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				97A4ED5ED06F70FA03F8F1DFF9AE12F9 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				E2604CFB1CD800BDED44D8D5C54D5A25 /* Pods */,
-				83D7EF4698190E95E873303A63DA2B3C /* Products */,
-				442DE329B1480BFD839F14F234B4965D /* Targets Support Files */,
+				946DF5D461E27B1BC88F8137968CB12E /* Products */,
+				C68F4FC7C7C1A7DC18759C8581EEDD65 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		83D7EF4698190E95E873303A63DA2B3C /* Products */ = {
+		91143621C38FEF9862B8B60070D3D7A2 /* Pods-ForceTouchSample */ = {
 			isa = PBXGroup;
 			children = (
-				18786A449C6944276BB507F5D5AE94A0 /* Expecta.framework */,
-				E85C1E7FF451936EF8D9662F13009EBE /* OCMock.framework */,
-				A6438ED04C9F9B8B76AE825E78F1E361 /* Pods_ForceTouchActions.framework */,
-				55D0DA2B44EC333E20A0243CCA59C90F /* Pods_ForceTouchActionsTests.framework */,
-				1278153D84725348E2D31C50567E9DC0 /* Quick.framework */,
+				0B61C1B7C84615602B335E958BF62005 /* Info.plist */,
+				13021232FC63DE47779E20946E48C9FC /* Pods-ForceTouchSample.modulemap */,
+				102BE6201822FE76B0274E2815A2467E /* Pods-ForceTouchSample-acknowledgements.markdown */,
+				FA7C1A25AC716893ED1A572F896ACEF6 /* Pods-ForceTouchSample-acknowledgements.plist */,
+				0E43668C795A95118EB73E200EBB3835 /* Pods-ForceTouchSample-dummy.m */,
+				3D2E275B41E4D035E3C094D0BD8CDEE0 /* Pods-ForceTouchSample-frameworks.sh */,
+				13929EFA0E4FB244CDADAE5518EDBC04 /* Pods-ForceTouchSample-resources.sh */,
+				B22EA2F52C47561086F8FF567C0AEE2C /* Pods-ForceTouchSample-umbrella.h */,
+				6DA983EE7820C832C81124EF575C561A /* Pods-ForceTouchSample.debug.xcconfig */,
+				9373B1379BCFA3670ED7D03EB145F2BC /* Pods-ForceTouchSample.release.xcconfig */,
+			);
+			name = "Pods-ForceTouchSample";
+			path = "Target Support Files/Pods-ForceTouchSample";
+			sourceTree = "<group>";
+		};
+		946DF5D461E27B1BC88F8137968CB12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF45368C23D18D95AD0E9E520EE23D86 /* Expecta.framework */,
+				D898BD4592034BD4AF72A13EF08A6E93 /* ForceTouchActions.framework */,
+				B4693F776D14316C46F55ED1C1CCCBDB /* OCMock.framework */,
+				178B584A0CC79271CBB3C73BC8117C05 /* Pods_ForceTouchActionsTests.framework */,
+				76759D62ACE0FFA5214D8AB9C97D1351 /* Pods_ForceTouchSample.framework */,
+				DAAFE27AA71450EE96CA2E4588D94D28 /* Quick.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		895C1F4F86079FB3105BB06F10C02285 /* Pods-ForceTouchActionsTests */ = {
+		97A4ED5ED06F70FA03F8F1DFF9AE12F9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E7456485BA8AFEBB5366D8ABD55184C6 /* Info.plist */,
-				767B5562F6B42DB4125997456057044B /* Pods-ForceTouchActionsTests.modulemap */,
-				3C81045B1AEBE1851C37FB13CCB4BE33 /* Pods-ForceTouchActionsTests-acknowledgements.markdown */,
-				5E496CCBCCD6A2357AF332F5E1E564E2 /* Pods-ForceTouchActionsTests-acknowledgements.plist */,
-				4A6EB64ACB1FD7F20A2C848CA63A01C0 /* Pods-ForceTouchActionsTests-dummy.m */,
-				FA2FC95C86A0B70B91BF0A8730D672EC /* Pods-ForceTouchActionsTests-frameworks.sh */,
-				1D1F34E7E4D0C14B815B74D014FFA7CC /* Pods-ForceTouchActionsTests-resources.sh */,
-				AA1CFB01F2AA635AB0D5108D59B6C845 /* Pods-ForceTouchActionsTests-umbrella.h */,
-				3CAF28F1C0D1000C7DABBA32DFBD1F51 /* Pods-ForceTouchActionsTests.debug.xcconfig */,
-				1787A67CEA0B84B11B0B621E91D4A7E2 /* Pods-ForceTouchActionsTests.release.xcconfig */,
+				40CD7A9C397A7635AC56E43639E23832 /* ForceTouchActions */,
 			);
-			name = "Pods-ForceTouchActionsTests";
-			path = "Target Support Files/Pods-ForceTouchActionsTests";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A85ACB2A2AA1F51F245E0972E31065AC /* ForceTouchActions */ = {
+			isa = PBXGroup;
+			children = (
+				09F8D85FB545087953B153461A3FFF11 /* ForceTouchActions.h */,
+				7A9AB969CCCC4FC6C2D5410EA340B5F8 /* FTActions.h */,
+				C6B0EC46E8D163D16476959E462F6CCB /* FTActions.m */,
+				5BA38BC2F4B7DCD5C3962FD421637C0B /* FTActionsIcon.h */,
+				D632010DD07FAAD25A90418C38BFF600 /* FTActionsIcon.m */,
+				1422A966EECF086BF89D7B1307D37660 /* FTConstants.h */,
+				4C0D6E3D32772A9108DA9DEAE9E5F745 /* FTConstants.m */,
+				1B69AE140B3ABFBB4944B841D5A0787A /* FTShortcut.h */,
+				F669737A24795C5F9811AFA8EC22BF6B /* FTShortcut.m */,
+				90D4EF8F5B09583F60E51EBAB9EFF9F0 /* FTShortcutIcon.h */,
+				5A27A44257FB530795FB782FEBE58303 /* FTShortcutIcon.m */,
+				526C023A3A00DAE20126AE5BCB31773E /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */,
+				1F7696974C8D38667F9AEC65FB80F702 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m */,
+			);
+			path = ForceTouchActions;
+			sourceTree = "<group>";
+		};
+		A8802FF0C03D46406768791282912076 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6D774CD30D67CEA1F7F58DACB1B2B7 /* ForceTouchActions.modulemap */,
+				F0A2FF1F036BEA1D0160C299FFAAAB12 /* ForceTouchActions.xcconfig */,
+				7B1AA29999F49A481AF146483163CCC7 /* ForceTouchActions-dummy.m */,
+				229A3CD68146E05A0D7DD7750F9B4732 /* ForceTouchActions-prefix.pch */,
+				51A9C98B6AEACE0E05532617D59708DA /* ForceTouchActions-umbrella.h */,
+				7935AEBE18D14E40C1F39B58F044E6B8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ForceTouchActions";
+			sourceTree = "<group>";
+		};
+		C68F4FC7C7C1A7DC18759C8581EEDD65 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BDFA02AECFC70DA5AA9622348185BE9 /* Pods-ForceTouchActionsTests */,
+				91143621C38FEF9862B8B60070D3D7A2 /* Pods-ForceTouchSample */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D24B2EA016AE4FABDB5AF17F3FD9C222 /* iOS */ = {
@@ -845,11 +950,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48E582A6C9DE7B0A9643F28006723C4D /* Headers */ = {
+		5738168C37A2D56AB44152FB10BB6C05 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B452D9A336498D8D34BDF4F9A8F723C6 /* Pods-ForceTouchActions-umbrella.h in Headers */,
+				1082FB4A227B911388B15282CB43EB51 /* Pods-ForceTouchSample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,6 +1048,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D44E3E21900781CC77EDECA79995EB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30467892D4ED21F97E210C29108D43EF /* ForceTouchActions-umbrella.h in Headers */,
+				792574C2EFEE3668AA0D1C913D548946 /* ForceTouchActions.h in Headers */,
+				486B8B7535BBCD7DC6B9FC0644D7D4A1 /* FTActions.h in Headers */,
+				E24DCD5689C7C7A8934D481230C9D6E7 /* FTActionsIcon.h in Headers */,
+				6543DCCBB3FF05F0EFE54DBC524C9CC5 /* FTConstants.h in Headers */,
+				5002E5075FEEF0CA73243C39FF725438 /* FTShortcut.h in Headers */,
+				4B652D260257D4688C6A62ADF68B6265 /* FTShortcutIcon.h in Headers */,
+				6DE30B1311208F2455DFDEB1F80E2E3F /* UIApplicationShortcutItem+FTApplicationShortcutItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -960,7 +1080,7 @@
 			);
 			name = OCMock;
 			productName = OCMock;
-			productReference = E85C1E7FF451936EF8D9662F13009EBE /* OCMock.framework */;
+			productReference = B4693F776D14316C46F55ED1C1CCCBDB /* OCMock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0D888F29E05E498D0CD91A51D28599A5 /* Expecta */ = {
@@ -977,7 +1097,24 @@
 			);
 			name = Expecta;
 			productName = Expecta;
-			productReference = 18786A449C6944276BB507F5D5AE94A0 /* Expecta.framework */;
+			productReference = DF45368C23D18D95AD0E9E520EE23D86 /* Expecta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1486425A133EA728B25AC6EB38760033 /* ForceTouchActions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4985701682B71465C10F769A404534E /* Build configuration list for PBXNativeTarget "ForceTouchActions" */;
+			buildPhases = (
+				7CE00980FA6EF1BCB157E49DC2941DBE /* Sources */,
+				D5774E7DB843D5FE9BA8B55C90F24FD4 /* Frameworks */,
+				9D44E3E21900781CC77EDECA79995EB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForceTouchActions;
+			productName = ForceTouchActions;
+			productReference = D898BD4592034BD4AF72A13EF08A6E93 /* ForceTouchActions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3F26A6A1067DB1BD07BABF2D760A401C /* Quick */ = {
@@ -994,24 +1131,7 @@
 			);
 			name = Quick;
 			productName = Quick;
-			productReference = 1278153D84725348E2D31C50567E9DC0 /* Quick.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		881CEF27DEFAE1C7BC2EA555B17140DA /* Pods-ForceTouchActions */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E7E1F19CDF233A3E9BC31937FF4E67A /* Build configuration list for PBXNativeTarget "Pods-ForceTouchActions" */;
-			buildPhases = (
-				AF5826A8525C227238EDFBADF2828C1B /* Sources */,
-				F1BEA2115299B37AD5230E98B495D0AC /* Frameworks */,
-				48E582A6C9DE7B0A9643F28006723C4D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ForceTouchActions";
-			productName = "Pods-ForceTouchActions";
-			productReference = A6438ED04C9F9B8B76AE825E78F1E361 /* Pods_ForceTouchActions.framework */;
+			productReference = DAAFE27AA71450EE96CA2E4588D94D28 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A76D5979C5C3475AFE955D07D87EE22E /* Pods-ForceTouchActionsTests */ = {
@@ -1031,7 +1151,25 @@
 			);
 			name = "Pods-ForceTouchActionsTests";
 			productName = "Pods-ForceTouchActionsTests";
-			productReference = 55D0DA2B44EC333E20A0243CCA59C90F /* Pods_ForceTouchActionsTests.framework */;
+			productReference = 178B584A0CC79271CBB3C73BC8117C05 /* Pods_ForceTouchActionsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAEFE9F39E8D046839E8A7AE648A1CE7 /* Pods-ForceTouchSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0A15D1B4C037E3687EE30B16AF04DB5 /* Build configuration list for PBXNativeTarget "Pods-ForceTouchSample" */;
+			buildPhases = (
+				C6F49D559F6DFBAD41336A1A7B92B798 /* Sources */,
+				1285C064C5A7CEADD758D442E9D3A9BB /* Frameworks */,
+				5738168C37A2D56AB44152FB10BB6C05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8795F320E954A4EFF00230CD304BBD08 /* PBXTargetDependency */,
+			);
+			name = "Pods-ForceTouchSample";
+			productName = "Pods-ForceTouchSample";
+			productReference = 76759D62ACE0FFA5214D8AB9C97D1351 /* Pods_ForceTouchSample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1051,14 +1189,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 83D7EF4698190E95E873303A63DA2B3C /* Products */;
+			productRefGroup = 946DF5D461E27B1BC88F8137968CB12E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0D888F29E05E498D0CD91A51D28599A5 /* Expecta */,
+				1486425A133EA728B25AC6EB38760033 /* ForceTouchActions */,
 				0C9D3C758CFA9888936DBEB0F9B3C74D /* OCMock */,
-				881CEF27DEFAE1C7BC2EA555B17140DA /* Pods-ForceTouchActions */,
 				A76D5979C5C3475AFE955D07D87EE22E /* Pods-ForceTouchActionsTests */,
+				BAEFE9F39E8D046839E8A7AE648A1CE7 /* Pods-ForceTouchSample */,
 				3F26A6A1067DB1BD07BABF2D760A401C /* Quick */,
 			);
 		};
@@ -1070,6 +1209,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				33E1DAE0F206D57B129A470F65630514 /* Pods-ForceTouchActionsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE00980FA6EF1BCB157E49DC2941DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334F3E1D0909A74EBC92E7C10B50F640 /* ForceTouchActions-dummy.m in Sources */,
+				A56B31D514D096B7C29FBE0AE1826A72 /* FTActions.m in Sources */,
+				6F2D37C256D47EFCA1DCDDABCC231FF7 /* FTActionsIcon.m in Sources */,
+				5D9D37AB699970D1E69298C51EF60F8C /* FTConstants.m in Sources */,
+				4FD23A79D7F96E0916160C3D148FF4F6 /* FTShortcut.m in Sources */,
+				11ED8E2C7B84F6AACE5CB025A65C6E97 /* FTShortcutIcon.m in Sources */,
+				EBF8DDE32E9372E3ECFB3CAE9DB25F39 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,14 +1267,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF5826A8525C227238EDFBADF2828C1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A49F4759E54607683755F7135D00806B /* Pods-ForceTouchActions-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B239BD93C67DE976C7F3A1AD982A0A58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1161,6 +1306,14 @@
 				E0A077DFB064B79685B810CCEFB2F1EF /* EXPMatchers+respondTo.m in Sources */,
 				EF6497EE123F6BC0C1B09717437C5908 /* EXPUnsupportedObject.m in Sources */,
 				B84431CF8C64F363A334AA7089F6C134 /* NSValue+Expecta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F49D559F6DFBAD41336A1A7B92B798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F51114788E0D8B37A6507914DEC1741 /* Pods-ForceTouchSample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1210,6 +1363,12 @@
 			target = 0C9D3C758CFA9888936DBEB0F9B3C74D /* OCMock */;
 			targetProxy = DF0A3278FFDD621A8658592788F49E87 /* PBXContainerItemProxy */;
 		};
+		8795F320E954A4EFF00230CD304BBD08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ForceTouchActions;
+			target = 1486425A133EA728B25AC6EB38760033 /* ForceTouchActions */;
+			targetProxy = 87DDBE6E77023D20AAA2325DD2DF2AE2 /* PBXContainerItemProxy */;
+		};
 		C77BDDB3F90D4BAF33AC2173FD4DE8ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Expecta;
@@ -1219,87 +1378,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+		2C96A7F7A12308526B83339A87F7BCA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82802EC2702DD7F58F3B3B8214BF6624 /* Pods-ForceTouchActionsTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_VERSION = 2.3;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		1FE45A4BE3ACAF76B60A85586C4AC8D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B10D156A50BE148A7D950B6A12CCF7EF /* Pods-ForceTouchActions.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchActions/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchActions/Pods-ForceTouchActions.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ForceTouchActions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5C0A07BF7EEA566C6260FD023633F934 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76CF96637173AA944C494A396D2A827E /* Pods-ForceTouchActions.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1308,31 +1393,69 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchActions/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchActionsTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchActions/Pods-ForceTouchActions.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ForceTouchActions;
+				PRODUCT_NAME = Pods_ForceTouchActionsTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		76452218ACAA072EC7A65F9253DFC7A7 /* Release */ = {
+		532D3382BE8725855EC153F0017DE272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9373B1379BCFA3670ED7D03EB145F2BC /* Pods-ForceTouchSample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchSample/Pods-ForceTouchSample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ForceTouchSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55EFA7E883CD0896433678AAFD490150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37ADA691A47F456BC2A99BDCFA8EB690 /* OCMock.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1357,11 +1480,325 @@
 			};
 			name = Release;
 		};
-		86B3AF85DF2958967D7E96849C2BE84C /* Debug */ = {
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		68C5CEAF998D62D147AF852A9B4B15A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A2FF1F036BEA1D0160C299FFAAAB12 /* ForceTouchActions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForceTouchActions/ForceTouchActions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForceTouchActions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForceTouchActions/ForceTouchActions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ForceTouchActions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D053E797B323AAEB5C8E6A899E2911E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F08BF970F9FD502F203D58612D9F475 /* Pods-ForceTouchActionsTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchActionsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ForceTouchActionsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BD7642F595479AA7D1574422547FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4042DE3CBA1565B493F07319F093F2B3 /* Quick.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5923E7D1415F178316DF2FDD267FAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37ADA691A47F456BC2A99BDCFA8EB690 /* OCMock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCMock/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCMock/OCMock.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OCMock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC60ADCEF8CA815186F474AD810139F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4042DE3CBA1565B493F07319F093F2B3 /* Quick.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD452A63F49EF2E4E7FE73720915A993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A2FF1F036BEA1D0160C299FFAAAB12 /* ForceTouchActions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ForceTouchActions/ForceTouchActions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ForceTouchActions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ForceTouchActions/ForceTouchActions.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ForceTouchActions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD99B5B6A13719B20F4768783B21662A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA983EE7820C832C81124EF575C561A /* Pods-ForceTouchSample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchSample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchSample/Pods-ForceTouchSample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ForceTouchSample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC0E7ADB66087A0043B43F6844C76FA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4551C0555B50993FB30DED09D93AA49B /* Expecta.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -1386,205 +1823,13 @@
 			};
 			name = Debug;
 		};
-		8C71E374D3E2BBE791C2DF3898639EFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37ADA691A47F456BC2A99BDCFA8EB690 /* OCMock.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCMock/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCMock/OCMock.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = OCMock;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C3FFD476815D42CE6A551BD795632527 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CAF28F1C0D1000C7DABBA32DFBD1F51 /* Pods-ForceTouchActionsTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchActionsTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ForceTouchActionsTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_VERSION = 2.3;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D1E73C6E53065C08294FD7C9A07FD7D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1787A67CEA0B84B11B0B621E91D4A7E2 /* Pods-ForceTouchActionsTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ForceTouchActionsTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ForceTouchActionsTests/Pods-ForceTouchActionsTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ForceTouchActionsTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D83F84C1402721C84570C35E8E66A299 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4042DE3CBA1565B493F07319F093F2B3 /* Quick.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Quick;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E878BE35B5EC03FBCF0DE0F69334076F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4042DE3CBA1565B493F07319F093F2B3 /* Quick.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Quick;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F24F328AA1CFC9A061F629C917D03F44 /* Release */ = {
+		FDAAB66C68056AD0B9907E1E3D5674A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4551C0555B50993FB30DED09D93AA49B /* Expecta.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -1612,20 +1857,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E7E1F19CDF233A3E9BC31937FF4E67A /* Build configuration list for PBXNativeTarget "Pods-ForceTouchActions" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5C0A07BF7EEA566C6260FD023633F934 /* Debug */,
-				1FE45A4BE3ACAF76B60A85586C4AC8D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				034014829C1E4434983CF3A690C12017 /* Debug */,
-				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1633,8 +1869,17 @@
 		74A9F74278E1CDC3C61B386FC80DA38B /* Build configuration list for PBXNativeTarget "OCMock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C71E374D3E2BBE791C2DF3898639EFB /* Debug */,
-				76452218ACAA072EC7A65F9253DFC7A7 /* Release */,
+				A5923E7D1415F178316DF2FDD267FAD5 /* Debug */,
+				55EFA7E883CD0896433678AAFD490150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4985701682B71465C10F769A404534E /* Build configuration list for PBXNativeTarget "ForceTouchActions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C5CEAF998D62D147AF852A9B4B15A5 /* Debug */,
+				CD452A63F49EF2E4E7FE73720915A993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1642,8 +1887,8 @@
 		BA9792F1000886209B2F6030C8B8C60F /* Build configuration list for PBXNativeTarget "Quick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D83F84C1402721C84570C35E8E66A299 /* Debug */,
-				E878BE35B5EC03FBCF0DE0F69334076F /* Release */,
+				9BD7642F595479AA7D1574422547FD5C /* Debug */,
+				AC60ADCEF8CA815186F474AD810139F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1651,8 +1896,17 @@
 		CA344F1B67CABDCD0968F90C2C5450B4 /* Build configuration list for PBXNativeTarget "Pods-ForceTouchActionsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3FFD476815D42CE6A551BD795632527 /* Debug */,
-				D1E73C6E53065C08294FD7C9A07FD7D8 /* Release */,
+				2C96A7F7A12308526B83339A87F7BCA5 /* Debug */,
+				8D053E797B323AAEB5C8E6A899E2911E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0A15D1B4C037E3687EE30B16AF04DB5 /* Build configuration list for PBXNativeTarget "Pods-ForceTouchSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD99B5B6A13719B20F4768783B21662A /* Debug */,
+				532D3382BE8725855EC153F0017DE272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1660,8 +1914,8 @@
 		DC61702A42844E4ED762A73E8893436B /* Build configuration list for PBXNativeTarget "Expecta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86B3AF85DF2958967D7E96849C2BE84C /* Debug */,
-				F24F328AA1CFC9A061F629C917D03F44 /* Release */,
+				FC0E7ADB66087A0043B43F6844C76FA0 /* Debug */,
+				FDAAB66C68056AD0B9907E1E3D5674A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
