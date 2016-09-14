@@ -14,6 +14,11 @@ FOUNDATION_EXPORT double ForceTouchActionsVersionNumber;
 //! Project version string for ForceTouchActions.
 FOUNDATION_EXPORT const unsigned char ForceTouchActionsVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <ForceTouchActions/PublicHeader.h>
+#import <ForceTouchActions/FTActions.h>
+#import <ForceTouchActions/FTActionsIcon.h>
+#import <ForceTouchActions/FTShortcutIcon.h>
+#import <ForceTouchActions/FTShortcut.h>
+#import <ForceTouchActions/FTConstants.h>
+#import <ForceTouchActions/UIApplicationShortcutItem+FTApplicationShortcutItem.h>
 
 
