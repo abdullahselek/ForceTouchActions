@@ -10,19 +10,25 @@
 
 @interface ViewController ()
 
+@property (nonatomic) UILabel *textLabel;
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
+#pragma mark - ForceTouchActions Delegate
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)prepareForTouchActionWithItem:(UIApplicationShortcutItem *)shortcutItem
+{
+    UIAlertController *alertController = [[UIAlertController alloc] init];
+    [alertController setMessage:[NSString stringWithFormat:@"Shortcut type : %@", shortcutItem.type]];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <ForceTouchActions/ForceTouchActions.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<FTActionsSupport>
 
 
 @end
