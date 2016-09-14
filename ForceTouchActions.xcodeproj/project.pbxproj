@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1C7507AF59D6788660A135CF /* Pods_ForceTouchActionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6697B8F5147FFB705D93AD5E /* Pods_ForceTouchActionsTests.framework */; };
-		A468A83A1D68DEE200068061 /* ForceTouchActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8341D68DEE200068061 /* ForceTouchActions.h */; };
-		A468A83B1D68DEE200068061 /* FTActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8351D68DEE200068061 /* FTActions.h */; };
+		A468A83A1D68DEE200068061 /* ForceTouchActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8341D68DEE200068061 /* ForceTouchActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A468A83B1D68DEE200068061 /* FTActions.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8351D68DEE200068061 /* FTActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A468A83C1D68DEE200068061 /* FTActions.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8361D68DEE200068061 /* FTActions.m */; };
-		A468A83D1D68DEE200068061 /* FTShortcutIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8371D68DEE200068061 /* FTShortcutIcon.h */; };
+		A468A83D1D68DEE200068061 /* FTShortcutIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8371D68DEE200068061 /* FTShortcutIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A468A83E1D68DEE200068061 /* FTShortcutIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8381D68DEE200068061 /* FTShortcutIcon.m */; };
 		A468A8441D68E39A00068061 /* apple_black.png in Resources */ = {isa = PBXBuildFile; fileRef = A468A8431D68E39A00068061 /* apple_black.png */; };
-		A468A8471D68ED3900068061 /* FTShortcut.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8451D68ED3900068061 /* FTShortcut.h */; };
+		A468A8471D68ED3900068061 /* FTShortcut.h in Headers */ = {isa = PBXBuildFile; fileRef = A468A8451D68ED3900068061 /* FTShortcut.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A468A8481D68ED3900068061 /* FTShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8461D68ED3900068061 /* FTShortcut.m */; };
 		A468A84A1D68EF0600068061 /* FTShortcutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A468A8491D68EF0600068061 /* FTShortcutTests.m */; };
 		A47D8DC61D67A5AB002E12A6 /* ForceTouchActions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D8DBB1D67A5AB002E12A6 /* ForceTouchActions.framework */; };
@@ -22,12 +22,12 @@
 		A4933E701D84896900D6D66A /* FTActionsIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4933E6F1D84896900D6D66A /* FTActionsIconTests.m */; };
 		A4933E721D84908800D6D66A /* FTActionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4933E711D84908800D6D66A /* FTActionsTests.m */; };
 		A4B7089B1D6CCF15008CBD8F /* FTShortcutIconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B7089A1D6CCF15008CBD8F /* FTShortcutIconTests.m */; };
-		A4D4B3241D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B3221D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */; };
+		A4D4B3241D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B3221D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4D4B3251D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4B3231D8467B100261341 /* UIApplicationShortcutItem+FTApplicationShortcutItem.m */; };
-		A4D4B3281D846A4100261341 /* FTActionsIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B3261D846A4100261341 /* FTActionsIcon.h */; };
+		A4D4B3281D846A4100261341 /* FTActionsIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B3261D846A4100261341 /* FTActionsIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4D4B3291D846A4100261341 /* FTActionsIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4B3271D846A4100261341 /* FTActionsIcon.m */; };
-		A4D4B32B1D84780E00261341 /* ForceTouchActions-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B32A1D84780E00261341 /* ForceTouchActions-Prefix.pch */; };
-		A4D4B32E1D84782A00261341 /* FTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B32C1D84782A00261341 /* FTConstants.h */; };
+		A4D4B32B1D84780E00261341 /* ForceTouchActions-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B32A1D84780E00261341 /* ForceTouchActions-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D4B32E1D84782A00261341 /* FTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4B32C1D84782A00261341 /* FTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4D4B32F1D84782A00261341 /* FTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4B32D1D84782A00261341 /* FTConstants.m */; };
 /* End PBXBuildFile section */
 
