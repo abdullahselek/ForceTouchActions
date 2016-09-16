@@ -18,7 +18,7 @@ CocoaPods is a dependency manager for Cocoa projects. You can install it with th
 $ gem install cocoapods
 ```
 
-To integrate ASMapLauncher into your Xcode project using CocoaPods, specify it in your Podfile:
+To integrate ForceTouchActions into your Xcode project using CocoaPods, specify it in your Podfile:
 
 ```objc
 source 'https://github.com/CocoaPods/Specs.git'
