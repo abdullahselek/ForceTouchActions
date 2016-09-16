@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/abdullahselek/ForceTouchActions.svg)](https://travis-ci.org/abdullahselek/ForceTouchActions.svg)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/ForceTouchActions.svg)](https://img.shields.io/cocoapods/v/ForceTouchActions.svg)
 [![Coverage Status](https://coveralls.io/repos/github/abdullahselek/ForceTouchActions/badge.svg?branch=master)](https://coveralls.io/github/abdullahselek/ForceTouchActions?branch=master)
 
 # ForceTouchActions
