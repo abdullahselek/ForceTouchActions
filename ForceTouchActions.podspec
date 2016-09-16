@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                = 'ForceTouchActions'
-    s.version             = '0.1'
+    s.version             = '0.2'
     s.summary             = 'Objective-C wrapper for iOS Home Screen Quick Actions'
     s.homepage            = 'https://github.com/abdullahselek/ASToast'
     s.license             = {
