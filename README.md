@@ -6,6 +6,36 @@ Objective-C wrapper for iOS Home Screen Quick Actions
 
 ForceTouchActions wrapper creates dynamic quick actions. You can add localizable shortcuts dynamically in runtime and handle them with type.
 
+# Requirements
+
+iOS 9.0+
+
+# CocoaPods
+
+CocoaPods is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```objc
+$ gem install cocoapods
+```
+
+To integrate ASMapLauncher into your Xcode project using CocoaPods, specify it in your Podfile:
+
+```objc
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'ForceTouchActions', '0.2'
+end
+```
+
+Then, run the following command:
+
+```objc
+$ pod install
+```
+
 ## Usage
 
 ```objc
