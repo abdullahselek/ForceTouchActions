@@ -24,20 +24,33 @@
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [ViewController new];
     
-    FTShortcut *shortcutFavorite = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeFavorite title:@"Add Favorite" subtitle:@"Favorite" icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeFavorite]];
-    FTShortcut *shortcutCompose = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeCompose title:@"Compose Mail" subtitle:@"Mail" icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeCompose]];
+    FTShortcut *shortcutFavorite = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeFavorite
+                                                              title:@"Add Favorite"
+                                                           subtitle:@"Favorite"
+                                                               icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeFavorite]];
+    FTShortcut *shortcutCompose = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeCompose
+                                                             title:@"Compose Mail"
+                                                          subtitle:@"Mail"
+                                                              icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeCompose]];
     NSArray<FTShortcut *> *shortcuts = @[shortcutFavorite, shortcutCompose];
     
     UIViewController *rootViewController = self.window.rootViewController;
     NSString *bundleIdentifier = [NSBundle mainBundle].bundleIdentifier;
-    self.forceTouchActions = [[FTActions alloc] initWithApplication:[UIApplication sharedApplication] delegate:rootViewController bundleIdentifier:bundleIdentifier shortcuts:shortcuts launchOptions:launchOptions];
+    self.forceTouchActions = [[FTActions alloc] initWithApplication:[UIApplication sharedApplication]
+                                                           delegate:rootViewController
+                                                   bundleIdentifier:bundleIdentifier
+                                                          shortcuts:shortcuts
+                                                      launchOptions:launchOptions];
     
     return YES;
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    FTShortcut *shortcutLocation = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeLocation title:@"Location" subtitle:nil icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeLocation]];
+    FTShortcut *shortcutLocation = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeLocation
+                                                              title:@"Location"
+                                                           subtitle:nil
+                                                               icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeLocation]];
     [self.forceTouchActions addShortcut:shortcutLocation application:application];
 }
 
