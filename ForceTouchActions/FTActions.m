@@ -33,8 +33,8 @@
 {
     NSMutableArray *shortcutItems = [NSMutableArray arrayWithCapacity:[shortcuts count]];
     [shortcuts enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        id mapObj = [(FTShortcut *) obj toApplicationShortcutWithIdentifier:self.bundleIdentifier];
-        [shortcutItems addObject:mapObj];
+        UIApplicationShortcutItem *shortcutItem = [(FTShortcut *) obj toApplicationShortcutWithIdentifier:self.bundleIdentifier];
+        [shortcutItems addObject:shortcutItem];
     }];
     application.shortcutItems = shortcutItems;
 }
@@ -50,14 +50,14 @@
 
 - (void)addShortcuts:(NSArray<FTShortcut *> *)shortcuts application:(UIApplication *)application
 {
-    NSMutableArray *shortcutItems = [NSMutableArray arrayWithCapacity:[shortcuts count]];
+    NSMutableArray *shortcutItems = [NSMutableArray new];
     [shortcuts enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        id mapObj = [(FTShortcut *) obj toApplicationShortcutWithIdentifier:self.bundleIdentifier];
-        [shortcutItems addObject:mapObj];
+        UIApplicationShortcutItem *shortcutItem = [(FTShortcut *) obj toApplicationShortcutWithIdentifier:self.bundleIdentifier];
+        [shortcutItems addObject:shortcutItem];
     }];
     if (application.shortcutItems)
     {
-        [shortcutItems addObject:application.shortcutItems];
+        [shortcutItems addObjectsFromArray:application.shortcutItems];
     }
     application.shortcutItems = shortcutItems;
 }
