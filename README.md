@@ -46,15 +46,14 @@ $ pod install
 ### Create shortcuts and add an array of shortcuts
 
 ```objc
-	FTShortcut *shortcutFavorite = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeFavorite
-                                                              title:@"Add Favorite"
-                                                           subtitle:@"Favorite"
-                                                               icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeFavorite]];
-    FTShortcut *shortcutCompose = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeCompose
-                                                             title:@"Compose Mail"
-                                                          subtitle:@"Mail"
-                                                              icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeCompose]];
-    NSArray<FTShortcut *> *shortcuts = @[shortcutFavorite, shortcutCompose];
+FTShortcut *shortcutFavorite = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeFavorite
+                                                          title:@"Add Favorite"
+                                                       subtitle:@"Favorite"];
+FTShortcut *shortcutCompose = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeCompose
+                                                         title:@"Compose Mail"
+                                                      subtitle:@"Mail"
+                                                      iconName:@"apple_black.png"];
+NSArray<FTShortcut *> *shortcuts = @[shortcutFavorite, shortcutCompose];
 ```
 
 ### Initiate ForceTouchActions with parameters to install the shortcuts
@@ -74,11 +73,10 @@ $ pod install
 ```objc
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    FTShortcut *shortcutLocation = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeLocation
-                                                              title:@"Location"
-                                                           subtitle:nil
-                                                               icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeLocation]];
-    [self.forceTouchActions addShortcut:shortcutLocation application:application];
+  FTShortcut *shortcutLocation = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeLocation
+                                                            title:@"Location"
+                                                         subtitle:nil];
+  [self.forceTouchActions addShortcut:shortcutLocation application:application];
 }
 ```
 
