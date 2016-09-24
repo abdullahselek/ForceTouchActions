@@ -26,12 +26,11 @@
     
     FTShortcut *shortcutFavorite = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeFavorite
                                                               title:@"Add Favorite"
-                                                           subtitle:@"Favorite"
-                                                               icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeFavorite]];
+                                                           subtitle:@"Favorite"];
     FTShortcut *shortcutCompose = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeCompose
                                                              title:@"Compose Mail"
                                                           subtitle:@"Mail"
-                                                              icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeCompose]];
+                                                              iconName:@"apple_black.png"];
     NSArray<FTShortcut *> *shortcuts = @[shortcutFavorite, shortcutCompose];
     
     UIViewController *rootViewController = self.window.rootViewController;
@@ -49,8 +48,7 @@
 {
     FTShortcut *shortcutLocation = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeLocation
                                                               title:@"Location"
-                                                           subtitle:nil
-                                                               icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeLocation]];
+                                                           subtitle:nil];
     [self.forceTouchActions addShortcut:shortcutLocation application:application];
 }
 

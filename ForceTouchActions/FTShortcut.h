@@ -67,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
   * Returns a shortcut application shortcut with identifier
   *
-  * @param bundleIdentifier
+  * @param bundleIdentifier App bundle id
   *
   * @return UIApplicationShortcutItem
  */

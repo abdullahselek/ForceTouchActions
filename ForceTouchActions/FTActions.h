@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
   * Handle action with shortcut item
   *
-  * @param shortcutItem
+  * @param shortcutItem Shortcut item
  */
 - (void)prepareForTouchActionWithItem:(UIApplicationShortcutItem *)shortcutItem;
 
