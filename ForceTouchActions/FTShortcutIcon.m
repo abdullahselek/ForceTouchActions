@@ -11,31 +11,13 @@
 @implementation FTShortcutIcon
 
 + (UIApplicationShortcutIcon *)getApplicationShortcutIconWithType:(UIApplicationShortcutIconType)iconType
-                                                           device:(UIDevice *)device
 {
-    if ([[device systemVersion] compare:FTAvailableVersion options:NSNumericSearch] != NSOrderedAscending)
-    {
-        return [UIApplicationShortcutIcon iconWithType:iconType];
-    }
-    else
-    {
-        NSLog(@"%@", FTNotAvailableError);
-        return nil;
-    }
+    return [UIApplicationShortcutIcon iconWithType:iconType];
 }
 
 + (UIApplicationShortcutIcon *)getApplicationShortIconWithName:(NSString *)imageName
-                                                        device:(UIDevice *)device
 {
-    if ([[device systemVersion] compare:FTAvailableVersion options:NSNumericSearch] != NSOrderedAscending)
-    {
-        return [UIApplicationShortcutIcon iconWithTemplateImageName:imageName];
-    }
-    else
-    {
-        NSLog(@"%@", FTNotAvailableError);
-        return nil;
-    }
+    return [UIApplicationShortcutIcon iconWithTemplateImageName:imageName];
 }
 
 @end

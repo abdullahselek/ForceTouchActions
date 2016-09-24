@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "FTActionsIcon.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -20,23 +21,19 @@ NS_ASSUME_NONNULL_BEGIN
   * Returns application shortcut icon with given type
   *
   * @param iconType Icon Type
-  * @param device Device
   *
   * @return UIApplicationShortcutIcon
  */
-+ (UIApplicationShortcutIcon *)getApplicationShortcutIconWithType:(UIApplicationShortcutIconType)iconType
-                                                           device:(UIDevice *)device;
++ (UIApplicationShortcutIcon *)getApplicationShortcutIconWithType:(UIApplicationShortcutIconType)iconType;
 
 /**
   * Returns application shortcut icon with given image name
   *
   * @param imageName Image name
-  * @param device Device
   *
   * @return UIApplicationShortcutIcon
  */
-+ (UIApplicationShortcutIcon *)getApplicationShortIconWithName:(NSString *)imageName
-                                                        device:(UIDevice *)device;
++ (UIApplicationShortcutIcon *)getApplicationShortIconWithName:(NSString *)imageName;
 
 @end
 
