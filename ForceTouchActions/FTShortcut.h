@@ -42,14 +42,27 @@ NS_ASSUME_NONNULL_BEGIN
   * @param type shortcut type
   * @param title shortcut title
   * @param subtitle shortcut subtitle
-  * @param icon Icon
   *
-  * @return FTShortcut
+  * @return FTShortcut instance
+ */
+- (instancetype)initWithType:(UIApplicationShortcutIconType)type
+                       title:(NSString *)title
+                    subtitle:(nullable NSString *)subtitle;
+
+/**
+  * Initializes a new shortcut item
+  *
+  * @param type shortcut type
+  * @param title shortcut title
+  * @param subtitle shortcut subtitle
+  * @param iconName icon name
+  *
+  * @return FTShortcut instance
  */
 - (instancetype)initWithType:(UIApplicationShortcutIconType)type
                        title:(NSString *)title
                     subtitle:(nullable NSString *)subtitle
-                        icon:(nullable UIApplicationShortcutIcon *)icon;
+                    iconName:(nullable NSString *)iconName;
 
 /**
   * Returns a shortcut application shortcut with identifier

@@ -12,8 +12,7 @@
 
 - (instancetype)initWithType:(UIApplicationShortcutIconType)type
                        title:(NSString *)title
-                    subtitle:(NSString *)subtitle
-                        icon:(UIApplicationShortcutIcon *)icon
+                    subtitle:(nullable NSString *)subtitle
 {
     self = [super init];
     if (self)
@@ -21,7 +20,26 @@
         self.type = type;
         self.title = title;
         self.subtitle = subtitle;
-        self.icon = icon;
+        self.icon = [FTShortcutIcon getApplicationShortcutIconWithType:self.type];
+    }
+    return self;
+}
+
+- (instancetype)initWithType:(UIApplicationShortcutIconType)type
+                       title:(NSString *)title
+                    subtitle:(nullable NSString *)subtitle
+                    iconName:(nullable NSString *)iconName
+{
+    self = [super init];
+    if (self)
+    {
+        self.type = type;
+        self.title = title;
+        self.subtitle = subtitle;
+        if (iconName)
+        {
+            self.icon = [FTShortcutIcon getApplicationShortIconWithName:iconName];
+        }
     }
     return self;
 }

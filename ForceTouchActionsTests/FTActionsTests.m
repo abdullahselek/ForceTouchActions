@@ -34,7 +34,7 @@
             [[[mockApplication stub] andReturn:shortcutItems] shortcutItems];
             UIApplicationShortcutIcon *shortcutIcon = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeUpdate];
             expect(shortcutIcon).notTo.beNil();
-            NSArray<FTShortcut *> *shortcuts = @[[[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeUpdate title:@"TITLE" subtitle:@"SUBTITLE" icon:shortcutIcon]];
+            NSArray<FTShortcut *> *shortcuts = @[[[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeUpdate title:@"TITLE" subtitle:@"SUBTITLE"]];
             expect(shortcuts).haveCountOf(1);
             actions = [[FTActions alloc] initWithApplication:[UIApplication sharedApplication] delegate:mockDelegate bundleIdentifier:@"bunleId" shortcuts:shortcuts launchOptions:@{}];
         });
@@ -65,8 +65,8 @@
                 expect(shortcutIconAdd).notTo.beNil();
                 UIApplicationShortcutIcon *shortcutIconCompose = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeCompose];
                 expect(shortcutIconCompose).notTo.beNil();
-                FTShortcut *shortcutAdd = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd title:@"ADD" subtitle:@"ADD_SUBTITLE" icon:shortcutIconAdd];
-                FTShortcut *shortcutCompose = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeCompose title:@"COMPOSE" subtitle:@"COMPOSE_SUBTITLE" icon:shortcutIconCompose];
+                FTShortcut *shortcutAdd = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd title:@"ADD" subtitle:@"ADD_SUBTITLE"];
+                FTShortcut *shortcutCompose = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeCompose title:@"COMPOSE" subtitle:@"COMPOSE_SUBTITLE"];
                 [actions addShortcuts:@[shortcutAdd, shortcutCompose] application:mockApplication];
                 expect([mockApplication shortcutItems]).haveCountOf(2);
             });
@@ -84,7 +84,7 @@
                 [[[mockApplication stub] andReturn:shortcutItems] shortcutItems];
                 UIApplicationShortcutIcon *shortcutIcon = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeUpdate];
                 expect(shortcutIcon).notTo.beNil();
-                NSArray<FTShortcut *> *shortcuts = @[[[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeUpdate title:@"TITLE" subtitle:@"SUBTITLE" icon:shortcutIcon]];
+                NSArray<FTShortcut *> *shortcuts = @[[[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeUpdate title:@"TITLE" subtitle:@"SUBTITLE"]];
                 expect(shortcuts).haveCountOf(1);
                 actions = [[FTActions alloc] initWithApplication:[UIApplication sharedApplication] delegate:mockDelegate bundleIdentifier:@"bunleId" shortcuts:shortcuts launchOptions:@{}];
             });
@@ -95,7 +95,7 @@
                 expect(actions).notTo.beNil();
                 UIApplicationShortcutIcon *shortcutIconAdd = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeAdd];
                 expect(shortcutIconAdd).notTo.beNil();
-                FTShortcut *shortcutAdd = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd title:@"ADD" subtitle:@"ADD_SUBTITLE" icon:shortcutIconAdd];
+                FTShortcut *shortcutAdd = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd title:@"ADD" subtitle:@"ADD_SUBTITLE"];
                 [actions addShortcut:shortcutAdd application:mockApplication];
                 expect([mockApplication shortcutItems]).haveCountOf(1);
             });

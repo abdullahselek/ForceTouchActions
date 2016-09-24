@@ -14,8 +14,7 @@
 {
     return [[FTShortcut alloc] initWithType:[FTActionsIcon toShortcutIconType:iconType]
                                       title:self.localizedTitle
-                                   subtitle:self.localizedSubtitle
-                                       icon:self.icon];
+                                   subtitle:self.localizedSubtitle];
 }
 
 @end

@@ -26,30 +26,26 @@ static NSString * const FTIconName = @"apple_black";
     describe(@"Shortcut object", ^ {
         context(@"Init with all parameters", ^ {
             it(@"Should not be nil",  ^ {
-                UIApplicationShortcutIcon *shortcutIcon = [FTShortcutIcon getApplicationShortIconWithName:FTIconName];
-                expect(shortcutIcon).notTo.beNil();
                 FTShortcut *shortcut = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd
                                                                   title:FTTitle
-                                                               subtitle:FTSubtitle
-                                                                   icon:shortcutIcon];
+                                                               subtitle:FTSubtitle];
                 expect(shortcut).notTo.beNil();
                 expect(shortcut.type).equal(UIApplicationShortcutIconTypeAdd);
                 expect(shortcut.title).equal(FTTitle);
                 expect(shortcut.subtitle).equal(FTSubtitle);
-                expect(shortcut.icon).equal(shortcutIcon);
+                expect(shortcut.icon).notTo.beNil();
             });
         });
         context(@"Init with only required parameters", ^ {
             it(@"Should not be nil", ^ {
                 FTShortcut *shortcut = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd
                                                                   title:FTTitle
-                                                               subtitle:nil
-                                                                   icon:nil];
+                                                               subtitle:nil];
                 expect(shortcut).notTo.beNil();
                 expect(shortcut.type).equal(UIApplicationShortcutIconTypeAdd);
                 expect(shortcut.title).equal(FTTitle);
                 expect(shortcut.subtitle).beNil();
-                expect(shortcut.icon).beNil();
+                expect(shortcut.icon).notTo.beNil();
             });
         });
         context(@"Application with bundle identifier", ^{
@@ -59,7 +55,7 @@ static NSString * const FTIconName = @"apple_black";
                 FTShortcut *shortcut = [[FTShortcut alloc] initWithType:UIApplicationShortcutIconTypeAdd
                                                                   title:FTTitle
                                                                subtitle:FTSubtitle
-                                                                   icon:shortcutIcon];
+                                                                   iconName:FTIconName];
                 expect([shortcut toApplicationShortcutWithIdentifier:[[NSBundle bundleForClass:[self class]] bundleIdentifier]]).notTo.beNil();
             });
         });
