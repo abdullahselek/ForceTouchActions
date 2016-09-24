@@ -59,13 +59,13 @@ NSArray<FTShortcut *> *shortcuts = @[shortcutFavorite, shortcutCompose];
 ### Initiate ForceTouchActions with parameters to install the shortcuts
 
 ```objc
-	UIViewController *rootViewController = self.window.rootViewController;
-    NSString *bundleIdentifier = [NSBundle mainBundle].bundleIdentifier;
-    self.forceTouchActions = [[FTActions alloc] initWithApplication:[UIApplication sharedApplication]
-                                                           delegate:rootViewController
-                                                   bundleIdentifier:bundleIdentifier
-                                                          shortcuts:shortcuts
-                                                      launchOptions:launchOptions];
+UIViewController *rootViewController = self.window.rootViewController;
+NSString *bundleIdentifier = [NSBundle mainBundle].bundleIdentifier;
+self.forceTouchActions = [[FTActions alloc] initWithApplication:[UIApplication sharedApplication]
+                                                       delegate:rootViewController
+                                               bundleIdentifier:bundleIdentifier
+                                                      shortcuts:shortcuts
+                                                  launchOptions:launchOptions];
 ```
 
 ### Add more shortcuts
